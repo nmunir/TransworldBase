@@ -1,0 +1,39 @@
+$ CUSTOMER	BOULEVARD						
+$ USER	rabeelboulevard						
+$ CONSIGNEE	A						
+$ CONSIGNEECONTACT							
+$ ADDR1	B						
+$ ADDR2	C						
+$ ADDR3	D						
+$ TOWN	E						
+$ REGION	F						
+$ COUNTRY	H						
+$ DEFAULTUK							
+$ POSTCODE	G						
+$ CUSTREF1							
+$ CUSTREF2							
+$ CUSTREF3							
+$ CUSTREF4							
+$ DEFAULTSPECIALINSTRUCTIONS	FBA ID: FBACC88R1						
+$ DEFAULTPACKINGNOTE	(none)						
+$ DEFAULTCUSTREF1	(none)						
+$ DEFAULTCUSTREF2	(none)						
+$ DEFAULTCUSTREF3	(none)						
+$ DEFAULTCUSTREF4	(none)						
+$ DEFAULTUK							
+$ ITEMORDER	PQ						
+$ ITEM	BLVDD0104	175					
+$ ITEM	BLVDD0665	61					
+$ ITEM	BOUL0883	50					
+$ ITEM	BOUL0995	25					
+$ ITEM	BVENT0093	25					
+$ ITEM	WNRD7021	25					
+$ ITEM	BMOV0666	25					
+$ ITEM	REVB2790	25					
+$ ITEM	BOUL0070	25					
+$ ITEM	BMOV0655	25					
+$ ITEM	BVAR0628	25					
+$ ITEM	BVAR0622	18					
+$ ITEM	UMDBV0750	15					
+Amazon.co.uk	Boundary Way			Hemel Hempstead	Hertfordshire	HP2 7LF	UK
+customer	Add-1	Add-2	Add-3	Town	County	Postocde	Country

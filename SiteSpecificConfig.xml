@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteSpecificConfig>
+  <costCentres>
+    <costCentre name="- please select -"></costCentre>
+    <costCentre name="22078 - EAMER"></costCentre>
+    <costCentre name="22715 - UK/SA/Eire"></costCentre>
+    <costCentre name="22716 - IBERIA"></costCentre>
+    <costCentre name="22717 - ITALY"></costCentre>
+    <costCentre name="22718 - FRANCE &amp; BENELUX"></costCentre>
+    <costCentre name="22719 - DACH"></costCentre>
+    <costCentre name="22726 - CEEMA"></costCentre>
+  </costCentres>
+</siteSpecificConfig>

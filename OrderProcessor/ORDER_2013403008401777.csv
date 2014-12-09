@@ -1,0 +1,173 @@
+$ CUSTOMER	QUANTUM						
+$ USER	rabeelquantum						
+$ CONSIGNEE	A						
+$ CONSIGNEECONTACT							
+$ ADDR1	B						
+$ ADDR2	C						
+$ ADDR3	D						
+$ TOWN	E						
+$ REGION	F						
+$ COUNTRY	H						
+$ DEFAULTUK							
+$ POSTCODE	G						
+$ CUSTREF1							
+$ CUSTREF2							
+$ CUSTREF3							
+$ CUSTREF4							
+$ DEFAULTSPECIALINSTRUCTIONS	P/O: JB100086408						
+$ DEFAULTPACKINGNOTE	(none)						
+$ DEFAULTCUSTREF1	(none)						
+$ DEFAULTCUSTREF2	(none)						
+$ DEFAULTCUSTREF3	(none)						
+$ DEFAULTCUSTREF4	(none)						
+$ DEFAULTUK							
+$ ITEMORDER	PQ						
+$ ITEM	8654	2	Cannot match this product (8654).	x			
+$ ITEM	107450	2	Cannot match this product (107450).	x			
+$ ITEM	749016	1	This product (749016has an available quantity of zero.	x			
+$ ITEM	756040	1	This product (756040has an available quantity of zero.	x			
+$ ITEM	769100	2	This product (769100has an available quantity of zero.	x			
+$ ITEM	769342	1	Added item 769342 to order contents list.	y			
+$ ITEM	771975	1	Added item 771975 to order contents list.	y			
+$ ITEM	780854	2	Added item 780854 to order contents list.	y			
+$ ITEM	796134	2	This product (796134has an available quantity of zero.	x			
+$ ITEM	ACVD016	2	Cannot match this product (ACVD016).				
+$ ITEM	ACVD023	2	Cannot match this product (ACVD023).				
+$ ITEM	ACVD028	2	Cannot match this product (ACVD028).				
+$ ITEM	ACVD030	2	Cannot match this product (ACVD030).				
+$ ITEM	ADVD006	1	This product (ADVD006has an available quantity of zero.				
+$ ITEM	AUG0051D	2	Cannot match this product (AUG0051D).				
+$ ITEM	AUSTINGOHDV	2	Added item AUSTINGOHDV to order contents list.				
+$ ITEM	BOE7277	2	Cannot match this product (BOE7277).				
+$ ITEM	BOE7382	1	Cannot match this product (BOE7382).				
+$ ITEM	BW010	2	This product (BW010has an available quantity of zero.				
+$ ITEM	BW011	2	This product (BW011has an available quantity of zero.				
+$ ITEM	CC110	2	Cannot match this product (CC110).				
+$ ITEM	D201	2	Cannot match this product (D201).				
+$ ITEM	DAVID0127	2	Cannot match this product (DAVID0127).				
+$ ITEM	DE4026	2	This product (DE4026has an available quantity of zero.				
+$ ITEM	DE4095	2	This product (DE4095has an available quantity of zero.				
+$ ITEM	DE4156	2	This product (DE4156has an available quantity of zero.				
+$ ITEM	DFD03	2	This product (DFD03has an available quantity of zero.				
+$ ITEM	DNGDVD3	2	Cannot match this product (DNGDVD3).				
+$ ITEM	DT16044	2	Cannot match this product (DT16044).				
+$ ITEM	DUK0065	2	Cannot match this product (DUK0065).				
+$ ITEM	DUK0123	2	Cannot match this product (DUK0123).				
+$ ITEM	DV10031	2	Added item DV10031 to order contents list.				
+$ ITEM	DV10802	2	Added item DV10802 to order contents list.				
+$ ITEM	DV11132	1	Added item DV11132 to order contents list.				
+$ ITEM	DV11154	1	Added item DV11154 to order contents list.				
+$ ITEM	DV11242	1	Added item DV11242 to order contents list.				
+$ ITEM	DV11308	1	Added item DV11308 to order contents list.				
+$ ITEM	DV11539	2	Added item DV11539 to order contents list.				
+$ ITEM	DV11605	1	Added item DV11605 to order contents list.				
+$ ITEM	DVD8516	2	Cannot match this product (DVD8516).				
+$ ITEM	EWB1564	2	Added item EWB1564 to order contents list.				
+$ ITEM	F471DVD	2	Added item F471DVD to order contents list.				
+$ ITEM	F8829DVD	2	Cannot match this product (F8829DVD).				
+$ ITEM	FR01005	1	Added item FR01005 to order contents list.				
+$ ITEM	FT9753	2	Cannot match this product (FT9753).				
+$ ITEM	GAMDVD01	2	Cannot match this product (GAMDVD01).				
+$ ITEM	GRV10507	2	Added item GRV10507 to order contents list.				
+$ ITEM	GW960	2	Cannot match this product (GW960).				
+$ ITEM	H361DVD	2	Added item H361DVD to order contents list.				
+$ ITEM	HL00314736	1	Added item HL00314736 to order contents list.				
+$ ITEM	HL00320415	1	Cannot match this product (HL00320415).				
+$ ITEM	HL00320419	1	Cannot match this product (HL00320419).				
+$ ITEM	HL00320420	1	Cannot match this product (HL00320420).				
+$ ITEM	HL00320433	2	Added item HL00320433 to order contents list.				
+$ ITEM	HL00320445	1	Added item HL00320445 to order contents list.				
+$ ITEM	HL00320593	1	Added item HL00320593 to order contents list.				
+$ ITEM	HL00320603	2	Added item HL00320603 to order contents list.				
+$ ITEM	HL00320606	1	Added item HL00320606 to order contents list.				
+$ ITEM	HL00320705	1	Added item HL00320705 to order contents list.				
+$ ITEM	HL00320782	1	Added item HL00320782 to order contents list.				
+$ ITEM	HL00320789	1	Added item HL00320789 to order contents list.				
+$ ITEM	HL00320835	1	Added item HL00320835 to order contents list.				
+$ ITEM	HL00320849	1	This product (HL00320849has an available quantity of zero.				
+$ ITEM	HL00320879	1	Added item HL00320879 to order contents list.				
+$ ITEM	HL00642051	2	Cannot match this product (HL00642051).				
+$ ITEM	HL00642071	1	This product (HL00642071has an available quantity of zero.				
+$ ITEM	HL00642077	1	Added item HL00642077 to order contents list.				
+$ ITEM	HL320254	2	Cannot match this product (HL320254).				
+$ ITEM	IMP904224	2	Cannot match this product (IMP904224).				
+$ ITEM	IMP908073	2	Cannot match this product (IMP908073).				
+$ ITEM	IMPH0355	1	Cannot match this product (IMPH0355).				
+$ ITEM	IX1209GMUKD	2	Cannot match this product (IX1209GMUKD).				
+$ ITEM	IX1311TTUKD	2	Cannot match this product (IX1311TTUKD).				
+$ ITEM	LSD10	1	This product (LSD10has an available quantity of zero.				
+$ ITEM	LSD12	1	This product (LSD12has an available quantity of zero.				
+$ ITEM	MDV022	2	Cannot match this product (MDV022).				
+$ ITEM	MDV051	1	Cannot match this product (MDV051).				
+$ ITEM	MDV052	1	Cannot match this product (MDV052).				
+$ ITEM	MK1577	1	Cannot match this product (MK1577).				
+$ ITEM	MSD1285	2	This product (MSD1285has an available quantity of zero.				
+$ ITEM	MVD0460	2	Cannot match this product (MVD0460).				
+$ ITEM	N204DVD	2	Cannot match this product (N204DVD).				
+$ ITEM	N5045DVD	2	Cannot match this product (N5045DVD).				
+$ ITEM	PBD11	1	This product (PBD11has an available quantity of zero.				
+$ ITEM	PREVIS1738	3	This product (PREVIS1738has an available quantity of zero.				
+$ ITEM	PVP35091	3	Added item PVP35091 to order contents list.				
+$ ITEM	QLD0066	2	Cannot match this product (QLD0066).				
+$ ITEM	QLDVD0289	2	This product (QLDVD0289has an available quantity of zero.				
+$ ITEM	QLDVD0302	2	Cannot match this product (QLDVD0302).				
+$ ITEM	QLDVD0306	2	Cannot match this product (QLDVD0306).				
+$ ITEM	QLDVD0309	2	Cannot match this product (QLDVD0309).				
+$ ITEM	QLDVD6428	2	Cannot match this product (QLDVD6428).				
+$ ITEM	QLDVD6635	2	Added item QLDVD6635 to order contents list.				
+$ ITEM	QLDVD6645	2	Added item QLDVD6645 to order contents list.				
+$ ITEM	QLDVD6735	1	Added item QLDVD6735 to order contents list.				
+$ ITEM	QLDVD7001	1	Added item QLDVD7001 to order contents list.				
+$ ITEM	R276DVD	2	Added item R276DVD to order contents list.				
+$ ITEM	RDR0031	2	Cannot match this product (RDR0031).				
+$ ITEM	RDR0044	2	Cannot match this product (RDR0044).				
+$ ITEM	RDR0050	2	Cannot match this product (RDR0050).				
+$ ITEM	RDR0067	1	Cannot match this product (RDR0067).				
+$ ITEM	RDR0155	1	Added item RDR0155 to order contents list.				
+$ ITEM	RDR0166	1	Added item RDR0166 to order contents list.				
+$ ITEM	RDR0193	1	Added item RDR0193 to order contents list.				
+$ ITEM	RDR0194	1	Added item RDR0194 to order contents list.				
+$ ITEM	RRDRKDVD01	2	Cannot match this product (RRDRKDVD01).				
+$ ITEM	RRMCDVD2	2	Cannot match this product (RRMCDVD2).				
+$ ITEM	RRMCDVD3	2	Cannot match this product (RRMCDVD3).				
+$ ITEM	SD031	2	Cannot match this product (SD031).				
+$ ITEM	SD035	2	Cannot match this product (SD035).				
+$ ITEM	SD036	2	Cannot match this product (SD036).				
+$ ITEM	SD037	2	Cannot match this product (SD037).				
+$ ITEM	SD13	2	This product (SD13has an available quantity of zero.				
+$ ITEM	SD18	2	Cannot match this product (SD18).				
+$ ITEM	SD25	2	Cannot match this product (SD25).				
+$ ITEM	SD26	2	Cannot match this product (SD26).				
+$ ITEM	SD5005	2	Cannot match this product (SD5005).				
+$ ITEM	SD5006	2	Cannot match this product (SD5006).				
+$ ITEM	SD55	2	This product (SD55has an available quantity of zero.				
+$ ITEM	SFD31	2	This product (SFD31has an available quantity of zero.				
+$ ITEM	SG004	2	Cannot match this product (SG004).				
+$ ITEM	SK11440	2	Cannot match this product (SK11440).				
+$ ITEM	SMARTDVD2	2	Cannot match this product (SMARTDVD2).				
+$ ITEM	SMARTDVD41	2	Cannot match this product (SMARTDVD41).				
+$ ITEM	SMARTDVD6	2	Cannot match this product (SMARTDVD6).				
+$ ITEM	SMARTDVD7	2	Cannot match this product (SMARTDVD7).				
+$ ITEM	SMARTDVD9	2	Cannot match this product (SMARTDVD9).				
+$ ITEM	STDC1111	2	Added item STDC1111 to order contents list.				
+$ ITEM	STDC1166	2	This product (STDC1166has an available quantity of zero.				
+$ ITEM	SVD122	1	Added item SVD122 to order contents list.				
+$ ITEM	SVD5085	2	Cannot match this product (SVD5085).				
+$ ITEM	SVD5102	2	Cannot match this product (SVD5102).				
+$ ITEM	SVD5132	2	This product (SVD5132has an available quantity of zero.				
+$ ITEM	TANRVDVD038	2	Cannot match this product (TANRVDVD038).				
+$ ITEM	TAVDVD1002	2	Cannot match this product (TAVDVD1002).				
+$ ITEM	TTR1	2	Cannot match this product (TTR1).				
+$ ITEM	TTR43	2	Cannot match this product (TTR43).				
+$ ITEM	TTR6	2	Cannot match this product (TTR6).				
+$ ITEM	VEGD996	2	Cannot match this product (VEGD996).				
+$ ITEM	VESTA13049	5	Added item VESTA13049 to order contents list.				
+$ ITEM	WTT55627	2	Cannot match this product (WTT55627).				
+$ ITEM	XD0603	2	Cannot match this product (XD0603).				
+$ ITEM	XDVD4303	2	Cannot match this product (XDVD4303).				
+$ ITEM	XDVD4309	2	Added item XDVD4309 to order contents list.				
+$ ITEM	XDVD4317	2	Cannot match this product (XDVD4317).				
+$ ITEM	XTD919	1	This product (XTD919has an available quantity of zero.				
+$ ITEM	Y380DVD	2	Added item Y380DVD to order contents list.				
+$ ITEM	Y381DVD	2	Added item Y381DVD to order contents list.				
+MSE	Goods-In Area	1 Eagle Park Drive		Warrington		WA2 8JA	UK

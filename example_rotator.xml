@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<News>
+  <NewsItem>
+    <Title>Another version of E-LOG 2005 Released!</Title>
+    <Date>Sep 4, 2005</Date>
+    <Text>This latest version fixes some minor problems found by Paul!</Text>
+  </NewsItem>
+
+  <NewsItem>
+    <Title>Hot News!  Temperature rises to 35 degrees Celsius in Sprint computer room</Title>
+    <Date>Sep 14, 2005</Date>
+    <Text>Courier Software staff don swim suits.</Text>
+  </NewsItem>
+
+  <NewsItem>
+    <Title>ELOG-2005 to be renamed ELOG-2006!</Title>
+    <Date>October 29, 2005</Date>
+    <Text>More info here - More info here - More info here - More info here - More info here - 
+     More info here.</Text>
+  </NewsItem>
+</News>
+

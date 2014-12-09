@@ -1,0 +1,86 @@
+
+$ CUSTOMER	QUANTUM						
+$ USER	stewartquantum						
+$ CONSIGNEE	A						
+$ CONSIGNEECONTACT							
+$ ADDR1	B						
+$ ADDR2	C						
+$ ADDR3	D						
+$ TOWN	E						
+$ REGION	F						
+$ COUNTRY	H						
+$ DEFAULTUK							
+$ POSTCODE	G						
+$ CUSTREF1							
+$ CUSTREF2							
+$ CUSTREF3							
+$ CUSTREF4							
+$ DEFAULTSPECIALINSTRUCTIONS	PO - BM100081117   //  Booking-In Required 24 hours in advance (07825 863954)						
+$ DEFAULTPACKINGNOTE	(none)						
+$ DEFAULTCUSTREF1	(none)						
+$ DEFAULTCUSTREF2	(none)						
+$ DEFAULTCUSTREF3	(none)						
+$ DEFAULTCUSTREF4	(none)						
+$ DEFAULTUK							
+$ ITEMORDER	PQ						
+$ ITEM	QLDVD6929	1	Added item QLDVD6929 to order contents list.				
+$ ITEM	QLDVD6674	1	Added item QLDVD6674 to order contents list.				
+$ ITEM	RDR0029	1	Added item RDR0029 to order contents list.				
+$ ITEM	HL02501307	1	Added item HL02501307 to order contents list.				
+$ ITEM	QLDVD6927	1	Added item QLDVD6927 to order contents list.				
+$ ITEM	62123	1	Added item 62123 to order contents list.				
+$ ITEM	SVD9	1	Added item SVD9 to order contents list.				
+$ ITEM	CG1691	1	Added item CG1691 to order contents list.				
+$ ITEM	Y9105DVD	1	Added item Y9105DVD to order contents list.				
+$ ITEM	R276DVD	1	Added item R276DVD to order contents list.				
+$ ITEM	HL00320506	1	Added item HL00320506 to order contents list.				
+$ ITEM	QLDVD6683	1	Added item QLDVD6683 to order contents list.				
+$ ITEM	QLDVD0333	1	Added item QLDVD0333 to order contents list.				
+$ ITEM	RDR0035	1	Added item RDR0035 to order contents list.				
+$ ITEM	RDR0040	1	Added item RDR0040 to order contents list.				
+$ ITEM	RDR0079	1	Added item RDR0079 to order contents list.				
+$ ITEM	ETV1671	1	Added item ETV1671 to order contents list.				
+$ ITEM	QLDVD6949	1	Added item QLDVD6949 to order contents list.				
+$ ITEM	QLDVD6213	2	Added item QLDVD6213 to order contents list.				
+$ ITEM	HL00320708	1	Added item HL00320708 to order contents list.				
+$ ITEM	HL00320433	1	Added item HL00320433 to order contents list.				
+$ ITEM	FDVD2041	2	Added item FDVD2041 to order contents list.				
+$ ITEM	DV10031	1	Added item DV10031 to order contents list.				
+$ ITEM	2059	1	Added item 2059 to order contents list.				
+$ ITEM	QLDVD6890	1	Added item QLDVD6890 to order contents list.				
+$ ITEM	M86540	1	Added item M86540 to order contents list.				
+$ ITEM	RDR0200	1	Added item RDR0200 to order contents list.				
+$ ITEM	HL00320378	2	Added item HL00320378 to order contents list.				
+$ ITEM	HL00320322	2	Added item HL00320322 to order contents list.				
+$ ITEM	HL00641795	1	Added item HL00641795 to order contents list.				
+$ ITEM	H361DVD	1	Added item H361DVD to order contents list.				
+$ ITEM	QLDVD6801	1	Added item QLDVD6801 to order contents list.				
+$ ITEM	SVD34	1	Added item SVD34 to order contents list.				
+$ ITEM	HL00642065	1	Added item HL00642065 to order contents list.				
+$ ITEM	CG1710	1	Added item CG1710 to order contents list.				
+$ ITEM	CG1592	1	Added item CG1592 to order contents list.				
+$ ITEM	QLDVD6833	1	Added item QLDVD6833 to order contents list.				
+$ ITEM	HOT704	1	Added item HOT704 to order contents list.				
+$ ITEM	2023	1	Added item 2023 to order contents list.				
+$ ITEM	QLDVD6894	1	Added item QLDVD6894 to order contents list.				
+$ ITEM	FDVD2053	2	Added item FDVD2053 to order contents list.				
+$ ITEM	M87800	1	Added item M87800 to order contents list.				
+$ ITEM	QLDVD6493	1	Added item QLDVD6493 to order contents list.				
+$ ITEM	2054	1	Added item 2054 to order contents list.				
+$ ITEM	SVD5017	1	Added item SVD5017 to order contents list.				
+$ ITEM	QLDVD6914	1	Added item QLDVD6914 to order contents list.				
+$ ITEM	VESTA13049	1	Added item VESTA13049 to order contents list.				
+$ ITEM	VESTA13073	1	Added item VESTA13073 to order contents list.				
+$ ITEM	HOB910592VD	1	Added item HOB910592VD to order contents list.				
+$ ITEM	GW401	1	Added item GW401 to order contents list.				
+$ ITEM	T2502DVD	1	Added item T2502DVD to order contents list.				
+$ ITEM	ASC13403	1	Added item ASC13403 to order contents list.				
+$ ITEM	HL00320700	1	Added item HL00320700 to order contents list.				
+$ ITEM	HL00320713	1	Added item HL00320713 to order contents list.				
+$ ITEM	HL00320806	2	Added item HL00320806 to order contents list.				
+$ ITEM	HL00320985	2	Added item HL00320985 to order contents list.				
+$ ITEM	HL00642159	1	Added item HL00642159 to order contents list.				
+$ ITEM	HL00320932	2	Added item HL00320932 to order contents list.				
+$ ITEM	HL00642055	1	Added item HL00642055 to order contents list.				
+$ ITEM	HL14004675	1	Added item HL14004675 to order contents list.				
+MSE UK	Goods-In Area	1 Eagle Park Drive		Warrington		WA2 8JA	UK

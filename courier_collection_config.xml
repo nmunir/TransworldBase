@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- per-site configuration for courier_collection.aspx -->
+<!-- version 1 - 15OCT07 - CN -->
+<CourierCollectionConfig>
+  <EnterpriseIGCostCentres>
+    <costCentre name="- please select -"></costCentre>
+    <costCentre name="BDG Work Futures - Acc No. BD001"></costCentre>
+    <costCentre name="Enterprise IG - Acc No. EN001"></costCentre>
+    <costCentre name="EIG Worldwide - Acc No. EN002"></costCentre>
+    <costCentre name="Everystone - Acc No. EV001"></costCentre>
+    <costCentre name="MJM - Acc No. MJ001"></costCentre>
+    <costCentre name="SJS - Acc No. SJS001"></costCentre>
+  </EnterpriseIGCostCentres>
+</CourierCollectionConfig>

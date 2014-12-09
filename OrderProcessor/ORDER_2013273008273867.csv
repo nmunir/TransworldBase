@@ -1,0 +1,47 @@
+$ CUSTOMER	QUANTUM						
+$ USER	rabeelquantum						
+$ CONSIGNEE	A						
+$ CONSIGNEECONTACT							
+$ ADDR1	B						
+$ ADDR2	C						
+$ ADDR3	D						
+$ TOWN	E						
+$ REGION	F						
+$ COUNTRY	H						
+$ DEFAULTUK							
+$ POSTCODE	G						
+$ CUSTREF1							
+$ CUSTREF2							
+$ CUSTREF3							
+$ CUSTREF4							
+$ DEFAULTSPECIALINSTRUCTIONS							
+$ DEFAULTPACKINGNOTE	(none)						
+$ DEFAULTCUSTREF1	4505608						
+$ DEFAULTCUSTREF2	4505816						
+$ DEFAULTCUSTREF3	(none)						
+$ DEFAULTCUSTREF4	(none)						
+$ DEFAULTUK							
+$ ITEMORDER	PQ						
+$ ITEM	SVD7	1	Added item SVD7 to order contents list.	y			
+$ ITEM	SVD6	1	Added item SVD6 to order contents list.	y			
+$ ITEM	SVD5130	1	Added item SVD5130 to order contents list.	y			
+$ ITEM	SVD107	1	Added item SVD107 to order contents list.	y			
+$ ITEM	STDC1210	1	Added item STDC1210 to order contents list.	y			
+$ ITEM	RL920	1	Added item RL920 to order contents list.	y			
+$ ITEM	QLDVD7151	1	Added item QLDVD7151 to order contents list.	y			
+$ ITEM	QLDVD7134	1	Added item QLDVD7134 to order contents list.	y			
+$ ITEM	MVD5018D	1	Added item MVD5018D to order contents list.	y			
+$ ITEM	MSDVD671	1	Added item MSDVD671 to order contents list.	y			
+$ ITEM	MSDVD604	1	Added item MSDVD604 to order contents list.	y			
+$ ITEM	MSDVD562	1	Added item MSDVD562 to order contents list.	y			
+$ ITEM	IDS-6	3	Added item IDS-6 to order contents list.	y			
+$ ITEM	IDS-5	3	Added item IDS-5 to order contents list.	y			
+$ ITEM	IDS-3	3	Added item IDS-3 to order contents list.	y			
+$ ITEM	IDS-1	3	Added item IDS-1 to order contents list.	y			
+$ ITEM	HTD9775	1	Added item HTD9775 to order contents list.	y			
+$ ITEM	AV600107	2	Added item AV600107 to order contents list.	y			
+$ ITEM	ADVD003	1	Added item ADVD003 to order contents list.	y			
+$ ITEM	760164	1	Added item 760164 to order contents list.	y			
+$ ITEM	4317	1	Added item 4317 to order contents list.	y			
+$ ITEM	2202	4	Added item 2202 to order contents list.	y			
+Gardners Books	Goods- In Area	1 Whittle Drive	Willingdon Drove	Eastbourne		BN23 6QH	UK

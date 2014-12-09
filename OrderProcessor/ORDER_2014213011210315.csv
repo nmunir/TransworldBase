@@ -1,0 +1,57 @@
+$ CUSTOMER	BOULEVARD						
+$ USER	rabeelboulevard						
+$ CONSIGNEE	A						
+$ CONSIGNEECONTACT							
+$ ADDR1	B						
+$ ADDR2	C						
+$ ADDR3	D						
+$ TOWN	E						
+$ REGION	F						
+$ COUNTRY	H						
+$ DEFAULTUK							
+$ POSTCODE	G						
+$ CUSTREF1							
+$ CUSTREF2							
+$ CUSTREF3							
+$ CUSTREF4							
+$ DEFAULTSPECIALINSTRUCTIONS	FBA labels and booking slot required						
+$ DEFAULTPACKINGNOTE	(none)						
+$ DEFAULTCUSTREF1	(none)						
+$ DEFAULTCUSTREF2	(none)						
+$ DEFAULTCUSTREF3	(none)						
+$ DEFAULTCUSTREF4	(none)						
+$ DEFAULTUK							
+$ ITEMORDER	PQ						
+$ ITEM	BVAR0627	125					
+$ ITEM	BLVDD0104	100					
+$ ITEM	REVD2792	100					
+$ ITEM	BLVDD0665	75					
+$ ITEM	BVAR0591	75					
+$ ITEM	BOUL0056	50					
+$ ITEM	BVAR0615	50					
+$ ITEM	BVENT0349	50					
+$ ITEM	BVAR0727	50					
+$ ITEM	BLVDD0041	50					
+$ ITEM	BVAR0616	50					
+$ ITEM	BOUL0071	50					
+$ ITEM	BVED0122	50					
+$ ITEM	TETRA005	29					
+$ ITEM	BVAR0603	25					
+$ ITEM	BVAR0540	25					
+$ ITEM	BVAR0592	25					
+$ ITEM	REVD2784	25					
+$ ITEM	BVAR0626	25					
+$ ITEM	REVB2742	25					
+$ ITEM	INF231	25					
+$ ITEM	BOUL0822	25					
+$ ITEM	BVENT0618	25					
+$ ITEM	BVAR0604	25					
+$ ITEM	BVAR0144	25					
+$ ITEM	BLVDD0495	25					
+$ ITEM	CRIMCD440	18					
+$ ITEM	azcd47	12					
+$ ITEM	785042	10					
+$ ITEM	BELIEVECDA3	6					
+$ ITEM	CRIMCD430	5					
+$ ITEM	82876815382	1					
+Amazon.co.uk	Boundary Way		Hemel Hempstead	Hertfordshire		HP2 7LF	UK

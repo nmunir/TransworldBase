@@ -1,0 +1,32 @@
+<DisplaySettings>
+  <News>
+    <Date />
+    <Title />
+    <Text />
+  </News>
+  <News>
+    <Date>June 30th 2012</Date>
+    <Title>Welcome </Title>
+    <Text>Welcome to this demo system created specifically for Hunter Worldwide Premium Sourcing.</Text>
+  </News>
+  <News>
+    <Date />
+    <Title />
+    <Text />
+  </News>
+  <News>
+    <Date>July 2nd 2012</Date>
+    <Title>Stock Available</Title>
+    <Text>Example stock details have now been uploaded to the system to enable you to try out the ordering function.</Text>
+  </News>
+  <News>
+    <Date />
+    <Title />
+    <Text />
+  </News>
+  <News>
+    <Date>July 3rd 2012</Date>
+    <Title>System Live !</Title>
+    <Text>Small demonstration system of online access put live for Hunter Worldwide Premium sourcing to test and review.</Text>
+  </News>
+</DisplaySettings>

@@ -1,0 +1,29 @@
+              
+            <asp:LinkButton
+             runat="server"
+             style="font-family: Verdana, Sans-Serif; font-size: x-small; color: gray; text-decoration: none"
+              ></asp:LinkButton>
+
+             <asp:Button              
+             runat="server"
+             height="20px"
+            Style="font-size: xx-small; cursor: hand; color: white; 
+            border-top-style: outset; font-family: verdana; border-right-style: outset; 
+            border-left-style: outset; background-color: gray; border-bottom-style: outset; 
+            border-left-color: white; border-bottom-color: white; border-top-color: white; border-right-color: white;"
+            />
+             <asp:FileUpload
+             runat="server"
+             height="20px"
+             style="font-family: Verdana, Sans-Serif; height: 20px;
+                    font-size: xx-small; " />
+
+      <asp:TreeView
+        runat="server"
+        ShowLines="True"
+        ImageSet="Arrows"
+        Font-Names="Verdana"
+        Font-Size="X-Small">
+        <HoverNodeStyle BackColor="#EEEEEE" />
+        <SelectedNodeStyle BackColor="#E0E0E0" />
+      </asp:TreeView>

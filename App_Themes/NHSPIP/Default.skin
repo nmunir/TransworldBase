@@ -1,0 +1,73 @@
+<%--
+Default skin template. The following skins are provided as examples only.
+
+1. Named control skin. The SkinId should be uniquely defined because
+   duplicate SkinId's per control type are not allowed in the same theme.
+
+<asp:GridView runat="server" SkinId="gridviewSkin" BackColor="White" >
+   <AlternatingRowStyle BackColor="Blue" />
+</asp:GridView>
+
+2. Default skin. The SkinId is not defined. Only one default 
+   control skin per control type is allowed in the same theme.
+
+<asp:Image runat="server" ImageUrl="~/images/image1.jpg" />
+--%>
+<%--
+            <asp:LinkButton
+             runat="server"
+             Style="border: #aaaaaa 1px solid; text-align: center; text-decoration: none; "
+             Height="17px"
+             Width="40px"
+              ></asp:LinkButton>
+--%>
+              
+            <asp:LinkButton
+             runat="server"
+             style="font-family: Verdana, Sans-Serif; font-size: xx-small; color: blue;"
+              ></asp:LinkButton>
+
+<%--
+             <asp:Button              
+             runat="server"
+             height="25px"
+             style="border-right: 1px dotted; border-top: 1px  dotted; border-left: 1px  dotted; border-bottom: 1px  dotted;
+                    font-family: Verdana, Sans-Serif; background-color: floralwhite; height: 20px;
+                    font-size: xx-small; color: black;" />
+--%>
+             <asp:Button              
+             runat="server"
+             height="25px"
+            Style="font-size: xx-small; cursor: hand; color: white; 
+            border-top-style: outset; font-family: verdana; border-right-style: outset; 
+            border-left-style: outset; background-color: gray; border-bottom-style: outset; 
+            border-left-color: white; border-bottom-color: white; border-top-color: white; border-right-color: white;"
+            />
+<%--
+             style="border-right: 1px dotted; border-top: 1px  dotted; border-left: 1px  dotted; border-bottom: 1px  dotted;
+                    font-family: Verdana, Sans-Serif; background-color: gray; height: 20px;
+                    font-size: xx-small; color: white;" />
+--%>
+<%--
+            Style="font-size: xx-small; cursor: hand; color: white; 
+            border-top-style: outset; font-family: verdana; border-right-style: outset; 
+            border-left-style: outset; background-color: #adadad; border-bottom-style: outset; 
+            border-left-color: white; border-bottom-color: white; border-top-color: white; border-right-color: white;"
+--%>
+
+             <asp:FileUpload
+             runat="server"
+             height="20px"
+             style="font-family: Verdana, Sans-Serif; height: 20px;
+                    font-size: xx-small; " />
+
+
+      <asp:TreeView
+        runat="server"
+        ShowLines="True"
+        ImageSet="Arrows"
+        Font-Names="Verdana"
+        Font-Size="X-Small">
+        <HoverNodeStyle BackColor="#EEEEEE" />
+        <SelectedNodeStyle BackColor="#E0E0E0" />
+      </asp:TreeView>

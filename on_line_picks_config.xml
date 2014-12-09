@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- per-site configuration for on_line_picks.aspx -->
+<!-- version 2 - 3APR07 - CN - Added new BlackRock codes -->
+<!-- version 3 - 24MAY10 - CN - Following many changes, added more new BlackRock codes -->
+<!-- version 4 - 20JUL11 - CN - Added UNICRD section -->
+<!-- version 5 - 13APR12 - CN - modified BlackRock codes -->
+<!-- version 6 - 29OCT12 - CN - added Irwin Mitchell codes -->
+<OnLinePicksConfig>
+  <BlackRockCostCentres>
+    <costCentre name="- please select -"></costCentre>
+<costCentre name="London Throgmorton (IR EMEA Country Marketing) - 203060 EQ"></costCentre>
+<costCentre name="London Throgmorton (Central Marketing) - 203040 EQ"></costCentre>
+<costCentre name="London Throgmorton (Institutional Marketing) - 204050 EQ"></costCentre>
+<costCentre name="London Throgmorton (DC Institutional) - 204080 EQ"></costCentre>
+<costCentre name="London Throgmorton (Investment Trust) - 203150 EQ"></costCentre>
+<costCentre name="London Throgmorton (Management) - 250200 EQ"></costCentre>
+<costCentre name="London Throgmorton (Real Estate) - 200150 EQ"></costCentre>
+<costCentre name="London Throgmorton (PR) - 250201 EQ"></costCentre>
+<costCentre name="Netherlands/Amsterdam/Benelux (Flemish/Dutch) - 203060 77"></costCentre>
+<costCentre name="Brussels - 203060 DH"></costCentre>
+<costCentre name="Isle of Man - 203060 70"></costCentre>
+<costCentre name="Germany/Austria/Frankfurt - 203060 EP"></costCentre>
+<costCentre name="Switzerland/Geneva - 203060 76"></costCentre>
+<costCentre name="Luxembourg - 203060 68"></costCentre>
+<costCentre name="Spain/Madrid - Portugal - 203060 73"></costCentre>
+<costCentre name="Italy/Milan - 203060 69"></costCentre>
+<costCentre name="Germany/ Munich - 203060 62"></costCentre>
+<costCentre name="France/Paris - 203060 72"></costCentre>
+<costCentre name="Sweden/Stockhom - 203060 89"></costCentre>
+<costCentre name="Jersey - 203110 75"></costCentre>
+<costCentre name="Poland/Hungry - 203060 EE"></costCentre>
+<costCentre name="Switzerland/Zurich - 203060 71"></costCentre>
+<costCentre name="China - Hong Kong - SAR, China - 204050 85"></costCentre>
+<costCentre name="Dubai  (MEA Middle East / Africa / Russia) - 203040 EG"></costCentre>
+<costCentre name="Edinburgh - 200305 61"></costCentre>
+<costCentre name="Singapore - Singapore - 203010 83"></costCentre>
+  </BlackRockCostCentres>
+  <PriceWaterhouseCoopersCostCentres>
+    <costCentre name="- please select -"></costCentre>
+    <costCentre name="PWC cost code 1"></costCentre>
+	<costCentre name="PWC cost code 2"></costCentre>
+	<costCentre name="PWC cost code n"></costCentre>
+  </PriceWaterhouseCoopersCostCentres>
+  <DATCostCentres>
+    <costCentre name="- please select -"></costCentre>
+    <costCentre name="General orders"></costCentre>
+    <costCentre name="Young Adult strategy"></costCentre>
+    <costCentre name="Adult strategy"></costCentre>
+    <costCentre name="Youth strategy"></costCentre>
+  </DATCostCentres>
+  <InsightCostCentres>
+    <costCentre name="- please select -"></costCentre>
+    <costCentre name="1814005 - HR"></costCentre>
+    <costCentre name="1814008 - Middle Office"></costCentre>
+    <costCentre name="1814009 - GAC CC"></costCentre>
+    <costCentre name="1814016 - Product Development"></costCentre>
+    <costCentre name="1814017 - Facilities"></costCentre>
+    <costCentre name="1814022 - Marketing"></costCentre>
+  </InsightCostCentres>
+  <KodakCostCentres>
+    <costCentre name="- please select -"></costCentre>
+    <costCentre name="22078 - EAMER"></costCentre>
+    <costCentre name="22715 - UK/SA/Eire"></costCentre>
+    <costCentre name="22716 - IBERIA"></costCentre>
+    <costCentre name="22717 - ITALY"></costCentre>
+    <costCentre name="22718 - FRANCE &amp; BENELUX"></costCentre>
+    <costCentre name="22719 - DACH"></costCentre>
+    <costCentre name="22726 - CEEMA"></costCentre>
+  </KodakCostCentres>
+  <CimaCostCentres>
+    <costCentre name="- please select -"></costCentre>
+    <costCentre name="*****Brand Department/Market*****"></costCentre>
+    <costCentre name="Business Development"></costCentre>
+    <costCentre name="CIMA Courses &amp; Conferences (MasterCourses)"></costCentre>
+    <costCentre name="Communications"></costCentre>
+    <costCentre name="Corporate Marketing"></costCentre>
+    <costCentre name="Members Network Support"></costCentre>
+    <costCentre name="Qualification Marketing"></costCentre>
+    <costCentre name="Technical Development"></costCentre>
+    <costCentre name="Technical Resource"></costCentre>
+    <costCentre name="Reception"></costCentre>
+    <costCentre name="*****Educational Department/Market*****"></costCentre>
+    <costCentre name="Assesment"></costCentre>
+    <costCentre name="Education Partnership"></costCentre>
+    <costCentre name="Product Development &amp; Learning (CPD, LTP, PF &amp; Members)"></costCentre>
+    <costCentre name="Publishing"></costCentre>
+    <costCentre name="Quality Assurance"></costCentre>
+    <costCentre name="*****International Department/Market*****"></costCentre>
+    <costCentre name="CIMA Australia"></costCentre>
+    <costCentre name="CIMA Hong Kong"></costCentre>
+    <costCentre name="CIMA Ireland"></costCentre>
+    <costCentre name="CIMA Malaysia"></costCentre>
+    <costCentre name="CIMA Southern Africa"></costCentre>
+    <costCentre name="CIMA India"></costCentre>
+    <costCentre name="CIMA Sri Lanka"></costCentre>
+    <costCentre name="International Operations"></costCentre>
+    <costCentre name="International Potential Markets"></costCentre>
+    <costCentre name="International Non-Core Markets"></costCentre>
+    <costCentre name=">*****Operations Department/Market*****"></costCentre>
+    <costCentre name="Finance"></costCentre>
+    <costCentre name="Human Resources"></costCentre>
+    <costCentre name="Service Delivery"></costCentre>
+    <costCentre name="IT &amp; Facilities"></costCentre>
+    <costCentre name="*****Professional Standards*****"></costCentre>
+    <costCentre name="Professional Conduct"></costCentre>
+    <costCentre name="Professional Standards"></costCentre>
+    <costCentre name="Regulatory &amp; Standards"></costCentre>
+    <costCentre name="Secretariat"></costCentre>
+  </CimaCostCentres>
+  <CimaDepartments>
+		<department name="- please select -"></department>
+        <department name="Brand and Marketing Services="></department>
+        <department name="CIMA UK Division"></department>
+        <department name="CIMA Africa"></department>
+        <department name="CIMA Australia"></department>
+        <department name="CIMA China"></department>
+        <department name="CIMA Hong Kong"></department>
+        <department name="CIMA India"></department>
+        <department name="CIMA Ireland"></department>
+        <department name="CIMA Malaysia"></department>
+        <department name="CIMA Singapore"></department>
+        <department name="CIMA Sri Lanka"></department>
+        <department name="INTL customer marketing"></department>
+        <department name="Education"></department>
+        <department name="Exams and Assessment"></department>
+        <department name="Learning Development"></department>
+        <department name="Logistics"></department>
+        <department name="New Market Development"></department>
+        <department name="Product marketing"></department>
+        <department name="Profile and Communications"></department>
+        <department name="Applied Research"></department>
+        <department name="Higher Education Partnerships"></department>
+  </CimaDepartments>
+  <UNICRDCostCentres>
+        <costCentre name="- please select -"></costCentre>
+        <costCentre name="102204 - Corporate Communications"></costCentre>
+        <costCentre name="102211 - UNICBP"></costCentre>
+        <costCentre name="109203 - Unilever Brand"></costCentre>
+        <costCentre name="109501 - UNISOC"></costCentre>
+  </UNICRDCostCentres>
+  <ArthritisCostCentres>
+      <costCentre name="- please select -"></costCentre>
+      <costCentre name="Central"/>
+      <costCentre name="Conferences"/>
+      <costCentre name="North"/>
+      <costCentre name="Northern Ireland"/>
+      <costCentre name="Scotland"/>
+      <costCentre name="South"/>
+      <costCentre name="UK Office"/>
+      <costCentre name="Wales"/>
+  </ArthritisCostCentres>
+  <ArthritisCategories>
+    <category name="- please select -"/>
+    <category name="Branches"/>
+    <category name="Conferences"/>
+    <category name="Health Professional"/>
+    <category name="Hospitals"/>
+    <category name="Medical Centre"/>
+    <category name="Individuals"/>
+    <category name="Libraries"/>
+    <category name="Pharmacy"/>
+    <category name="Surgeries"/>
+    <category name="Volunteers"/>
+    <category name="Other"/>
+  </ArthritisCategories>
+    <IrwinMitchellBudgetCodes>
+        <category name=" - please select -"/>
+        <category name="PLS - National"/>
+        <category name="BLS - National"/>
+        <category name="FIRMWIDE MISCELLANEOUS"/>
+        <category name="PLS - Birmingham"/>
+        <category name="BLS -Birmingham"/>
+        <category name="BIRMINGHAM OFFICE FIRMWIDE"/>
+        <category name="PLS - PI - Bristol"/>
+        <category name="BRISTOL OFFICE FIRMWIDE"/>
+        <category name="PLS - PI - Glasgow"/>
+        <category name="PLS - PI- Leeds"/>
+        <category name="BLS - Leeds"/>
+        <category name="LEEDS OFFICE FIRMWIDE"/>
+        <category name="PLS - PI- Leicester"/>
+        <category name="PLS - PI - London"/>
+        <category name="BLS - London"/>
+        <category name="LONDON OFFICE FIRMWIDE"/>
+        <category name="PLS - PI - Manchester"/>
+        <category name="BLS - Manchester"/>
+        <category name="MANCHESTER OFFICE FIRMWIDE"/>
+        <category name="PLS - PI - Newcastle"/>
+        <category name="NEWCASTLE OFFICE FIRMWIDE"/>
+        <category name="PLS Sheffield"/>
+        <category name="BLS - Sheffield"/>
+        <category name="SHEFFIELD OFFICE FIRMWIDE"/>
+        <category name="Spain"/>
+        <category name="Ascent"/>
+    </IrwinMitchellBudgetCodes>
+    <IrwinMitchellDepartments>
+        <category name="- please select -"/>
+        <category name="Birmingham - Firmwide"/>
+        <category name="BLS - Ascent"/>
+        <category name="BLS - Birmingham"/>
+        <category name="BLS - Commercial Litigation"/>
+        <category name="BLS - Commercial Property"/>
+        <category name="BLS - Corporate  &amp; Transactions"/>
+        <category name="BLS - Debt Recovery"/>
+        <category name="BLS - Department Wide"/>
+        <category name="BLS - Employment  &amp; Pensions"/>
+        <category name="BLS - Firm Wide"/>
+        <category name="BLS - Glasgow"/>
+        <category name="BLS - Insolvency"/>
+        <category name="BLS - Leeds"/>
+        <category name="BLS - London"/>
+        <category name="BLS - Manchester"/>
+        <category name="BLS - Newcastle"/>
+        <category name="BLS - Other"/>
+        <category name="BLS - Professional Negligence"/>
+        <category name="BLS - Public Sector"/>
+        <category name="BLS - Regulatory  &amp; Criminal Investigation Group"/>
+        <category name="BLS - Sheffield"/>
+        <category name="BLS - Spain"/>
+        <category name="Bristol - Firmwide"/>
+        <category name="Firm Wide "/>
+        <category name="IM Scotland - Glasgow"/>
+        <category name="Leeds - Firmwide"/>
+        <category name="London - Firmwide"/>
+        <category name="Manchester - Firmwide"/>
+        <category name="Newcastle - Firmwide"/>
+        <category name="Other - Other"/>
+        <category name="PLS - Armed Forces"/>
+        <category name="PLS - Asbestos Related Diseases"/>
+        <category name="PLS - Birmingham"/>
+        <category name="PLS - Bristol"/>
+        <category name="PLS - Child Abuse"/>
+        <category name="PLS - Contentious Probate"/>
+        <category name="PLS - Conveyancing"/>
+        <category name="PLS - Court of Protection"/>
+        <category name="PLS - Department Wide"/>
+        <category name="PLS – Ethnic Communities"/>
+        <category name="PLS - Family"/>
+        <category name="PLS - Fast Track"/>
+        <category name="PLS - Fast Track - Litigation"/>
+        <category name="PLS - Fast Track - Public Liability"/>
+        <category name="PLS - Fast Track - RTA"/>
+        <category name="PLS - Fast Track - Workplace accident"/>
+        <category name="PLS - Fast Track - Workplace Illness"/>
+        <category name="PLS - Firm Wide"/>
+        <category name="PLS - Glasgow"/>
+        <category name="PLS - Group Actions"/>
+        <category name="PLS - International Travel Litigation"/>
+        <category name="PLS - Leeds"/>
+        <category name="PLS - Legal Expenses Insurance"/>
+        <category name="PLS - Legal Helpline"/>
+        <category name="PLS - Leicester"/>
+        <category name="PLS - London"/>
+        <category name="PLS - Manchester"/>
+        <category name="PLS - Medical Law  &amp; Patients Rights"/>
+        <category name="PLS - Motor"/>
+        <category name="PLS - Newcastle"/>
+        <category name="PLS - Other"/>
+        <category name="PLS - Personal Injury"/>
+        <category name="PLS - Product Liability"/>
+        <category name="PLS - Professional Negligence"/>
+        <category name="PLS - Public Law"/>
+        <category name="PLS - Public Liability"/>
+        <category name="PLS - Road Traffic Accidents"/>
+        <category name="PLS - Serious Injuries"/>
+        <category name="PLS - Sheffield"/>
+        <category name="PLS - Spain"/>
+        <category name="PLS - Special Damages"/>
+        <category name="PLS - Wills, Trusts  &amp; Probate"/>
+        <category name="PLS - Workplace Illness"/>
+        <category name="PLS - Workplace Injuries"/>
+        <category name="SCR - Firm Wide"/>
+        <category name="Sheffield - Firmwide"/>
+        <category name="Spain "/>
+        <category name="Subsidiaries - CORIS"/>
+        <category name="Subsidiaries - IM Abogados"/>
+        <category name="Subsidiaries - IM Asset Management"/>
+        <category name="Support Services - BD&amp;C"/>
+        <category name="Support Services - Compliance"/>
+        <category name="Support Services - HR  &amp; T"/>
+        <category name="Support Services - IT"/>
+        <category name="Support Services - Management"/>
+        <category name="Support Services - Risk  &amp; Compliance"/>
+        <category name="(blank)"/>
+    </IrwinMitchellDepartments>
+    <JupiterBudgetCodes>
+        <category name="- please select -"/>
+        <category name="INT - International"/>
+        <category name="INS - Institutional"/>
+        <category name="CORP - Corporate"/>
+        <category name="GMS - Group Marketing Services"/>
+        <category name="UKW - UK Wholesale"/>
+        <category name="PC - Private Clients"/>
+        <category name="MFA"/>
+    </JupiterBudgetCodes>
+</OnLinePicksConfig>

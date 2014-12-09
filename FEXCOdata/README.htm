@@ -1,0 +1,39 @@
+August 2009
+<br><br>
+Harry,<br><br>Here are instructions for generating the monthly FEXCO statem
+ents, just in case they need to be done while I&#39;m away.<br><br>1. FEXCO normally provide 2 data files *AgentStatements*.txt (financial statements) and *Multiple Groups*.txt (commission statements). The part of the file
+name in the * indicates the reporting date. These are uploaded via the secure upload mechanism. Marilyn will inform you when they arrive.<br>
+<br>Occasionally they just provide one file. I think it&#39;s the Multiple 
+Groups file.<br><br>There is a share \\<b>SPRINT_DATA2\FexcoStatementFiles<
+/b>. This maps to \\SPRINT_DATA2\d\CourierSoftware\www\common\FEXCOdata.<br>
+<br><b style="color: rgb(255, 0, 0);">BEWARE</b> - don&#39;t confuse this
+ share with the share *called* <b>FEXCOdata</b>, which actually maps to the
+ upload directory.<br><br><b style"color: rgb(51, 51, 255);">ACTION</b>:
+ Place the files from FEXCO in the FexcoStatementFiles share.<br>
+<br>2. The statement generation process is now in two parts (I&#39;ve had to partially rewrite it recently to improve performance).<br><br>First, a
+ll the statement data is loaded into the database (this is necessary because when both commission statements and financial statements are provided, FEXCO want them printed together). This part of the process uses the executable <b>FEXCODataReader.exe</b>, a copy of which you can find in the share.<br>
+<br>Second, the statements are generated from the data in the files and the
+ data in the database, and output as HTML files. This part of the process is done from the FEXCO Statement Generator tab on the INTERNAL web site (log
+ in as <b>harryinternal</b>).<br>
+<br><b style"color: rgb(51, 51, 255);">ACTION</b>: Run <b>FEXCODataReade
+r.exe </b>to do the database load.<br><br>NOTE: because of file permisssion
+s issues which I&#39;ve not sorted out, you may need to copy the executable
+ to your local machine. It makes no difference where you run it provided the app can reach the database.<br>
+<br>Follow the instructions provided with the app. In case you have permissions problems accessing the actual data files themselves, copy these to you
+r local machine and change the path in the app. The only requirement is that the app must be able to access the database on the production server. The
+ default connection string is correct for this database.<br>
+<br>The database load takes several hours. You can see the progress at the 
+bottom of the app. You MUST let this phase complete without interruption.<br><br>3. <b style"color: rgb(51, 51, 255);">ACTION</b>: Create the reports as follows: Log on to the INTERNAL web site. Navigate to the FEXCO Statement Generator tab. Click the <b>retrieve data</b> button. Select the <b
+>Show commission statements</b> option button. Select the <b>Generate commission &amp; financial or Generate commission only</b> option button, dependi
+ng on whether two files or one file were provided. Enter 1 &amp; 99 in From
+ and To. Click <b>go</b>.<br>
+<br>I normally save the reports to disk in batches of 100 (modify the From 
+and To numbers for each run, ie 1-99, 100-199, 200-299 etc.<br><br>Last month there were just under 1400 reports.<br><br> Note that the web app reads 
+the files you placed in the <b>FexcoStatementFiles</b> share<b> - </b>they 
+must be present.<b><br>
+
+</b><br>4. <b style"color: rgb(51, 51, 255);">ACTION</b>: Eyeball a few 
+of the generated reports, including the very last report, against the data 
+files to check they have all been generated and the dates look sensible - one time I accidentally used the previous month&#39;s data file :( .<br>
+<br>Give the generated reports to Mary/Marilyn/whoever for printing and despatch. <b style"color: rgb(255, 0, 0);">Remind them they MUST disable headers and footers in the browser from which they are printing.</b><br><br>
+That&#39;s it. Sorry if it seems long-winded but I wanted to explain what&#39;s going on and cover the obvious potential problem areas. The actual process is fairly straightforward now.<br><br>Chris<b><br></b>

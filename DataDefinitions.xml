@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dataDefinitions>
+  <tables>
+	  <table friendlyName="- AUTHORISATION REPORTS -" viewName="" ignoreCustomerKey="" description="">
+	  </table>
+	  <table friendlyName="Authorisable Products" viewName="vwAuthorisableProducts" ignoreCustomerKey="False" description="Lists all products, showing for each product if it requires authorisation">
+      <column name="Authorisable" friendlyname="Authorisable" description="Shows Yes or No indicating whether this product requires authorisation"></column>
+	  <column name="ProductCode" friendlyname="Product Code" description="Identification code for this product"></column>
+	  <column name="ProductDate" friendlyname="Value Date" description="A date or other value that, when appended to the Product Code, forms a unique value that identifies the product"></column>
+	  <column name="ProductDescription" friendlyname="Product Description" description="Description of the product"></column>
+	  <column name="Authoriser" friendlyname="Authoriser" description="The name and logon name of the user responsible for authorising this product"></column>
+    </table>
+	  <table friendlyName="Authorisations In Force" viewName="vwAuthorisationsInForce" ignoreCustomerKey="False" description="Lists, for each user, the authorisations that have been granted and are in force">
+		  <column name="ProductCode" friendlyname="Product Code" description="Identification code for this product"></column>
+		  <column name="ProductDate" friendlyname="Value Date" description="A date or other value that, when appended to the Product Code, forms a unique value that identifies the product"></column>
+		  <column name="ProductDescription" friendlyname="Product Description" description="Description of the product"></column>
+		  <column name="AuthorisedTo" friendlyname="Authorised To" description="The name and logon name of the user to whom authorisation has been granted to order this product"></column>
+		  <column name="QuantityRemaining" friendlyname="Quantity Remaining" description="The amount of the the product this user is authorised to order (ie quantity originally authorised - quantity already ordered)"></column>
+		  <column name="Expires" friendlyname="Expires" description="The date on which this authorisation expires"></column>
+	  </table>
+	  <table friendlyName="- ADDRESS BOOK REPORTS -" viewName="" ignoreCustomerKey="" description="">
+	  </table>
+	  <table friendlyName="Personal Address Books" viewName="vwPersonalAddressBook" ignoreCustomerKey="False" description="Lists the entries in each user's personal address book">
+      <column name="[Key]" friendlyname="Key" description="Unique numeric key for this user"></column>
+      <column name="FirstName" friendlyname="First Name" description="User's forename"></column>
+      <column name="LastName" friendlyname="Last Name" description="User's family name"></column>
+      <column name="Code" friendlyname="Short Code" description="The short code assigned to this entry for easy identification"></column>
+      <column name="Company" friendlyname="Company Name" description="Company Name"></column>
+      <column name="Addr1" friendlyname="Address Line 1" description="Address Line 1"></column>
+      <column name="Addr2" friendlyname="Address Line 2" description="Address Line 2"></column>
+      <column name="Addr3" friendlyname="Address Line 3" description="Address Line 3"></column>
+      <column name="Town" friendlyname="Town" description="Town"></column>
+      <column name="State" friendlyname="County or State" description="County or State"></column>
+      <column name="PostCode" friendlyname="Post code or ZIP code" description="Post code or ZIP code"></column>
+      <column name="CountryName" friendlyname="Country Name" description="Country Name"></column>
+      <column name="AttnOf" friendlyname="Attention Of" description="Name of primary recipient"></column>
+      <column name="Telephone" friendlyname="Telephone number" description="Telephone number"></column>
+      <column name="Fax" friendlyname="Fax number" description="Fax number"></column>
+      <column name="Email" friendlyname="Email address" description="Email address"></column>
+      <column name="DeletedFlag" friendlyname="Deleted Flag" description="True/False flag indicating if this entry has been deleted"></column>
+    </table>
+    <table friendlyName="Shared Address Book" viewName="vwSharedAddressBook" ignoreCustomerKey="False" description="Lists the entries in the shared address book">
+      <column name="[Key]" friendlyname="Key" description="Unique numeric key for this user"></column>
+      <column name="Code" friendlyname="Short Code" description="The short code assigned to this entry for easy identification"></column>
+      <column name="Company" friendlyname="Company Name" description="Company Name"></column>
+      <column name="Addr1" friendlyname="Address Line 1" description="Address Line 1"></column>
+      <column name="Addr2" friendlyname="Address Line 2" description="Address Line 2"></column>
+      <column name="Addr3" friendlyname="Address Line 3" description="Address Line 3"></column>
+      <column name="Town" friendlyname="Town" description="Town"></column>
+      <column name="State" friendlyname="County or State" description="County or State"></column>
+      <column name="PostCode" friendlyname="Post code or ZIP code" description="Post code or ZIP code"></column>
+      <column name="CountryName" friendlyname="Country Name" description="Country Name"></column>
+      <column name="AttnOf" friendlyname="Attention Of" description="Name of primary recipient"></column>
+      <column name="Telephone" friendlyname="Telephone number" description="Telephone number"></column>
+      <column name="Fax" friendlyname="Fax number" description="Fax number"></column>
+      <column name="Email" friendlyname="Email address" description="Email address"></column>
+      <column name="DeletedFlag" friendlyname="Deleted Flag" description="True/False flag indicating if this entry has been deleted"></column>
+    </table>
+    <!--
+    <table friendlyName="Product Movements" viewName="vwMovements" ignoreCustomerKey="False" description="Lists the event history for a product, eg GOODS IN, internal warehouse moves, despatch. Use the Product Key field to JOIN the Products table to this table, to build a per-product list of events.">
+      <column name="LogisticMovementKey" friendlyname="Key" description="Unique numeric key for this product movement"></column>
+      <column name="LogisticBookingKey" friendlyname="Booking Key" description="Use this to JOIN to the Bookings table"></column>
+      <column name="LogisticProductKey" friendlyname="Product Key" description="Use this to JOIN to the Products table"></column>
+      <column name="ProductCode" friendlyname="Product Code" description="Identification code for this product, from the Products table"></column>
+      <column name="LogisticMovementStateId" friendlyname="Movement Type" description="Type of movement, eg GOODSIN, ADJUSTMENT, MOVED"></column>
+      <column name="LogisticMovementStartDateTime" friendlyname="Movement Date/Time" description="Date &amp; Time of this movement"></column>
+      <column name="ItemsIn" friendlyname="Items IN" description="Number of incoming items"></column>
+      <column name="ItemsOut" friendlyname="Items OUT" description="Number of outgoing items"></column>
+      <column name="Comment" friendlyname="Comment" description="Ad-hoc comment on this movement"></column>
+    </table>
+   	-->
+	  <table friendlyName="- PRODUCT, BOOKING &amp; CONSIGNMENT REPORTS -" viewName="" ignoreCustomerKey="" description="">
+	  </table>
+	  <table friendlyName="Live (Unarchived) Products" viewName="vwLiveProductsWithQuantity2" ignoreCustomerKey="False" description ="Lists all available Products">
+      <column name="ProductCode" friendlyname="Product Code" description="Identification code for this product"></column>
+		<column name="ProductDepartmentId" friendlyname="Product Department" description="Department ID"></column>
+		<column name="ProductDate" friendlyname="Value/Date" description="A date or other value which, when appended to the Product Code, forms a unique Product identifier"></column>
+		<column name="ProductDescription" friendlyname="Product Description" description="Description of product"></column>
+		<column name="ProductQuantity" friendlyname="Quantity In Stock" description="The amount of the product currently in stock"></column>
+		<column name="LanguageId" friendlyname="Language" description="Product Language"></column>
+      <column name="ItemsPerBox" friendlyname="Items Per Box" description="Number of items per box"></column>
+      <column name="MinimumStockLevel" friendlyname="Minimum Stock Level" description="Stock Level at which LOW STOCK alert is generated"></column>
+      <column name="SerialNumbersFlag" friendlyname="Serial Numbers Flag" description="True/False flag indicating whether this product is controlled with serial numbers"></column>
+      <column name="UnitValue" friendlyname="Cost Price (unit value)" description="The cost price (unit value) of this product"></column>
+      <column name="UnitValue2" friendlyname="Selling Price" description="The selling price of this product"></column>
+      <column name="CurrencyName" friendlyname="Unit Currency" description="Currency in which units of this product are denominated"></column>
+      <column name="UnitWeightGrams" friendlyname="Unit Weight In Grams" description="The unit weight of this product in grams"></column>
+      <column name="ProductCategory" friendlyname="Product Category" description="The product Category"></column>
+		<column name="SubCategory" friendlyname="Sub Category" description="The product Sub Category"></column>
+		  <column name="SubCategory2" friendlyname="Sub Category 2" description="The product Sub Category 2, if any"></column>
+		  <column name="Misc1" friendlyname="Misc #1" description="Field for miscellaneous or per-customer product information"></column>
+		  <column name="Misc2" friendlyname="Misc #2" description="Field for miscellaneous or per-customer product information"></column>
+		  <column name="ExpiryDate" friendlyname="Expiry Date" description="The product expiry date"></column>
+		<column name="ReplenishmentDate" friendlyname="Replenishment Date" description="The date on which this product should be replenished"></column>
+      <column name="CreatedOn" friendlyname="Created Date" description="The date on which this product was created on the system"></column>
+      <column name="ViewOnWebForm" friendlyname="View On Web Form?" description="Whether this product is displayed on web forms"></column>
+      <column name="WebsiteAdRotatorFlag" friendlyname="View On Ad Rotator?" description="Whether this product is included in the rotator sequence"></column>
+      <column name="AdRotatorText" friendlyname="Ad Rotator Text" description="Text shown for this product on rotator"></column>
+      <column name="RequiresAuthentication" friendlyname="Requires Authentication?" description="Whether this product requires authentication"></column>
+      <column name="OriginalImage" friendlyname="Product Image Present?" description="Indicates if there is an image for this product"></column>
+      <column name="PDFFileName" friendlyname="PDF Present?" description="Indicates if there is a PDF for this product"></column>
+      <column name="InactivityAlertDays" friendlyname="Inactivity Alert Days?" description="Number of days after which alert will be sent if no order for this product; 0 = alert disabled"></column>
+      <column name="CalendarManaged" friendlyname="Calendar Managed?" description="Flag indicating if product is Calendar Managed"></column>
+      <column name="OnDemand" friendlyname="Print On Demand?" description="Indicates if this product is Print On Demand, and if so the POD type (static or customisable)"></column>
+    </table>
+	  <table friendlyName="Archived Products" viewName="vwArchivedProductsWithQuantity2" ignoreCustomerKey="False" description ="Lists all available Products">
+      <column name="ProductCode" friendlyname="Product Code" description="Identification code for this product"></column>
+      <column name="ProductDepartmentId" friendlyname="Product Department" description="Department ID"></column>
+      <column name="ProductDate" friendlyname="Value/Date" description="A date or other value which, when appended to the Product Code, forms a unique Product identifier"></column>
+      <column name="ProductDescription" friendlyname="Product Description" description="Description of product"></column>
+      <column name="ProductQuantity" friendlyname="Quantity In Stock" description="The amount of the product currently in stock"></column>
+      <column name="LanguageId" friendlyname="Language" description="Product Language"></column>
+      <column name="ItemsPerBox" friendlyname="Items Per Box" description="Number of items per box"></column>
+      <column name="MinimumStockLevel" friendlyname="Minimum Stock Level" description="Stock Level at which LOW STOCK alert is generated"></column>
+      <column name="SerialNumbersFlag" friendlyname="Serial Numbers Flag" description="True/False flag indicating whether this product is controlled with serial numbers"></column>
+      <column name="UnitValue" friendlyname="Cost Price (unit value)" description="The cost price (unit value) of this product"></column>
+      <column name="UnitValue2" friendlyname="Selling Price" description="The selling price of this product"></column>
+      <column name="CurrencyName" friendlyname="Unit Currency" description="Currency in which units of this product are denominated"></column>
+      <column name="UnitWeightGrams" friendlyname="Unit Weight In Grams" description="The unit weight of this product in grams"></column>
+      <column name="ProductCategory" friendlyname="Product Category" description="The product Category"></column>
+      <column name="SubCategory" friendlyname="Sub Category" description="The product Sub Category"></column>
+      <column name="SubCategory2" friendlyname="Sub Category 2" description="The product Sub Category 2, if any"></column>
+      <column name="Misc1" friendlyname="Misc #1" description="Field for miscellaneous or per-customer product information"></column>
+      <column name="Misc2" friendlyname="Misc #2" description="Field for miscellaneous or per-customer product information"></column>
+      <column name="ExpiryDate" friendlyname="Expiry Date" description="The product expiry date"></column>
+      <column name="ReplenishmentDate" friendlyname="Replenishment Date" description="The date on which this product should be replenished"></column>
+      <column name="CreatedOn" friendlyname="Created Date" description="The date on which this product was created on the system"></column>
+      <column name="ViewOnWebForm" friendlyname="View On Web Form?" description="Whether this product is displayed on web forms"></column>
+      <column name="WebsiteAdRotatorFlag" friendlyname="View On Ad Rotator?" description="Whether this product is included in the rotator sequence"></column>
+      <column name="AdRotatorText" friendlyname="Ad Rotator Text" description="Text shown for this product on rotator"></column>
+      <column name="RequiresAuthentication" friendlyname="Requires Authentication?" description="Whether this product requires authentication"></column>
+      <column name="OriginalImage" friendlyname="Product Image Present?" description="Indicates if there is an image for this product"></column>
+      <column name="PDFFileName" friendlyname="PDF Present?" description="Indicates if there is a PDF for this product"></column>
+      <column name="InactivityAlertDays" friendlyname="Inactivity Alert Days?" description="Number of days after which alert will be sent if no order for this product; 0 = alert disabled"></column>
+      <column name="CalendarManaged" friendlyname="Calendar Managed?" description="Flag indicating if product is Calendar Managed"></column>
+      <column name="OnDemand" friendlyname="Print On Demand?" description="Indicates if this product is Print On Demand, and if so the POD type (static or customisable)"></column>
+    </table>
+	  <table friendlyName="Low Stock (Unarchived) Products" viewName="vwProductsUnarchivedLowStock" ignoreCustomerKey="False" description ="Lists un-archived products at or below the minimum stock level">
+		  <column name="ProductCode" friendlyname="Product Code" description="Identification code for this product"></column>
+		  <column name="ProductDate" friendlyname="Value Date" description="A date or other value which, when appended to the Product Code forms a unique Product identifier"></column>
+		  <column name="ProductDescription" friendlyname="Product Description" description="Description of product"></column>
+		  <column name="MinimumStockLevel" friendlyname="Minimum Stock Level" description="Stock Level at which LOW STOCK alert is generated"></column>
+		  <column name="Quantity" friendlyname="Quantity In Stock" description="The amount of the product currently in stock"></column>
+	  </table>
+	  <table friendlyName="Low Stock (Archived) Products" viewName="vwProductsArchivedLowStock" ignoreCustomerKey="False" description ="Lists archived products at or below the minimum stock level">
+		  <column name="ProductCode" friendlyname="Product Code" description="Identification code for this product"></column>
+		  <column name="ProductDate" friendlyname="Value Date" description="A date or other value which, when appended to the Product Code forms a unique Product identifier"></column>
+		  <column name="ProductDescription" friendlyname="Product Description" description="Description of product"></column>
+		  <column name="MinimumStockLevel" friendlyname="Minimum Stock Level" description="Stock Level at which LOW STOCK alert is generated"></column>
+		  <column name="Quantity" friendlyname="Quantity In Stock" description="The amount of the product currently in stock"></column>
+	  </table>
+	  <table friendlyName="Orders" viewName="vwStockBookings" ignoreCustomerKey="False" description="Lists all Orders">
+      <column name="LogisticBookingKey" friendlyname="Booking Number" description="The unique booking number for this order"></column>
+      <column name="CustomerDepartmentId" friendlyname="Department ID" description="Department ID or Cost Centre code"></column>
+      <column name="CustomerBookingReference" friendlyname="Customer Booking Reference" description="Customer Booking Reference"></column>
+      <column name="SendToAttentionOf" friendlyname="Send To Attention Of" description="Send To Attention Of"></column>
+      <column name="SpecialInstructions" friendlyname="Special Instructions" description="Special Instructions"></column>
+      <column name="ShippingInformation" friendlyname="Shipping Information" description="Shipping Information"></column>
+      <column name="BookedOn" friendlyname="Booked On" description="Date Booked"></column>
+      <column name="BookingCompletedOn" friendlyname="Booking Completed On" description="Date Booking Completed"></column>
+      <column name="ConsignmentKey" friendlyname="Consignment Number" description="The unique Consignment number for this booking"></column>
+      <column name="UserId" friendlyname="Booked by User Id" description="The logon Id of the user who made this booking"></column>
+    </table>
+    <table friendlyName="Consignments" viewName="vwConsignments2" ignoreCustomerKey="False" description="Lists all Consignments">
+      <column name="[Key]" friendlyname="Consignment Number" description="The unique consignment number"></column>
+      <column name="OriginatingUser" friendlyname="Originating User" description="The name and logon id of the user who created this consignment"></column>
+      <column name="StockBookingKey" friendlyname="Order Number" description="The order number relating to this consignment (NB some consignments do not have a related Order"></column>
+      <column name="AWB" friendlyname="Air Waybill Number" description="The Air Waybill Number for this consignment"></column>
+      <column name="AgentName" friendlyname="Agent" description="The Agent used for this consignment"></column>
+      <column name="AgentAWB" friendlyname="Agent AWB" description="The Air Waybill number provided by the agent"></column>
+      <column name="AgentRef" friendlyname="Agent Ref" description="The Agent reference code"></column>
+      <column name="DeliveryDueOn" friendlyname="Delivery Due On Date" description="The date on which delivery is due"></column>
+      <column name="DeliveredFlag" friendlyname="Delivered Flag" description="True/False flag indicating if consignment has been delivered"></column>
+      <column name="TimedDeliveryFlag" friendlyname="Timed Delivery Flag" description="True/False flag indicating this is a timed delivery"></column>
+      <column name="Weight" friendlyname="Weight" description="Consignment weight"></column>
+      <column name="Description" friendlyname="Description" description="Description of the consignment"></column>
+      <column name="SpecialInstructions" friendlyname="Special Instructions" description="Special Instructions provided for the consignment"></column>
+      <column name="ValForCustoms" friendlyname="Value For Customs" description="The consignment's value for customs"></column>
+      <column name="ValForCustomsCurKey" friendlyname="Value For Customs Currency Key" description="Key into the currency table of the value for customs figure (see currency table)"></column>
+      <column name="ValForIns" friendlyname="Value For Insurance" description="The consignment's value for insurance"></column>
+      <column name="ManifestKey" friendlyname="Manifest Key" description="The manifest key"></column>
+      <column name="CustomerRef1" friendlyname="Customer Reference 1" description="Customer reference 1"></column>
+      <column name="CustomerRef2" friendlyname="Customer Reference 2" description="Customer reference 2"></column>
+      <column name="CnorName" friendlyname="Consignor Name" description="The consignor's name"></column>
+      <column name="CnorAddr1" friendlyname="Consignor Address Line 1" description="Consignor Address Line 1"></column>
+      <column name="CnorAddr2" friendlyname="Consignor Address Line 2" description="Consignor Address Line 2"></column>
+      <column name="CnorAddr3" friendlyname="Consignor Address Line 3" description="Consignor Address Line 3"></column>
+      <column name="CnorTown" friendlyname="Consignor Town" description="Consignor Town"></column>
+      <column name="CnorState" friendlyname="Consignor State" description="Consignor County or State"></column>
+      <column name="CnorPostCode" friendlyname="Consignor Post Code" description="Consignor Post Code"></column>
+      <column name="CnorCountry" friendlyname="Consignor Country Name" description="Consignor Country Name"></column>
+      <column name="CnorCtcName" friendlyname="Consignor Contact Name" description="Consignor Contact Name"></column>
+      <column name="CnorTel" friendlyname="Consignor Telephone Number" description="Consignor Telephone Number"></column>
+      <column name="CnorEmail" friendlyname="Consignor Email Address" description="Consignor Email Address"></column>
+      <column name="CnorPreAlertFlag" friendlyname="Consignor Pre-Alert Flag" description="True/False flag indicating if Consignor should be pre-alerted"></column>
+      <column name="CneeName" friendlyname="Consignee Name" description="The consignee's name"></column>
+      <column name="CneeAddr1" friendlyname="Consignee Address Line 1" description="Consignee Address Line 1"></column>
+      <column name="CneeAddr2" friendlyname="Consignee Address Line 2" description="Consignee Address Line 2"></column>
+      <column name="CneeAddr3" friendlyname="Consignee Address Line 3" description="Consignee Address Line 3"></column>
+      <column name="CneeAddr4" friendlyname="Consignee Address Line 4" description="Consignee Address Line 4"></column>
+      <column name="CneeTown" friendlyname="Consignee Town" description="Consignee Town"></column>
+      <column name="CneeState" friendlyname="Consignee State" description="Consignee County or State"></column>
+      <column name="CneePostCode" friendlyname="Consignee Post Code" description="Consignee Post Code"></column>
+      <column name="CneeCountry" friendlyname="Consignee Country Name" description="Consignee Country Name"></column>
+      <column name="CneeCtcName" friendlyname="Consignee Contact Name" description="Consignee Contact Name"></column>
+      <column name="CneeTel" friendlyname="Consignee Telephone Number" description="Consignee Telephone Number"></column>
+      <column name="CneeEmail" friendlyname="Consignee Email Address" description="Consignee Email Address"></column>
+      <column name="CreatedOn" friendlyname="Created On" description="Date on which consignment was created"></column>
+      <column name="PODDate" friendlyname="POD Date" description="Proof of delivery date"></column>
+      <column name="PODTime" friendlyname="POD Time" description="Proof of delivery time"></column>
+      <column name="PODName" friendlyname="POD Name" description="Proof of delivery name"></column>
+      <column name="Misc1" friendlyname="Miscellany 1" description="Miscellaneous data 1"></column>
+      <column name="Misc2" friendlyname="Miscellany 2" description="Miscellaneous data 2"></column>
+      <column name="ReadyOn" friendlyname="Ready On" description="Ready on date"></column>
+      <column name="CollectionPoint" friendlyname="Collection Point" description="Collection Point"></column>
+      <column name="NoteToDriver" friendlyname="Note To Driver" description="Text of any note to driver"></column>
+      <column name="NonDocsFlag" friendlyname="Non Docs Flag" description="True/False flag indicating this is a non-docs consignment"></column>
+    </table>
+	  <table friendlyName="- USER &amp; USER PROFILE REPORTS -" viewName="" ignoreCustomerKey="" description="">
+	  </table>
+	  <table friendlyName="System Users" viewName="UserProfile" ignoreCustomerKey="False" description="Lists system users, their attributes and permissions">
+		  <column name="[Key]" friendlyname="Key" description="Unique numeric key for this user"></column>
+		  <column name="UserId" friendlyname="Logon ID" description="User's Logon ID"></column>
+		  <column name="FirstName" friendlyname="First Name" description="User's forename"></column>
+		  <column name="LastName" friendlyname="Last Name" description="User's family name"></column>
+		  <column name="Title" friendlyname="Title" description="Job Title, or title of courtesy"></column>
+		  <column name="Department" friendlyname="Department" description="Department name"></column>
+		  <column name="Type" friendlyname="User Type" description="'User' or 'SuperUser'"></column>
+		  <column name="Status" friendlyname="Status" description="'Active' or 'Suspended'"></column>
+		  <column name="EmailAddr" friendlyname="Email Address" description="User's email address"></column>
+		  <column name="AbleToCreateStockBooking" friendlyname="User Can Create Stock Booking" description="True/False flag indicating if user can create stock bookings"></column>
+		  <column name="AbleToCreateCollectionRequest" friendlyname="User Can Create Collection Request" description="True/False flag indicating if user can create courier collection requests"></column>
+		  <column name="AbleToCreateConsignments" friendlyname="User Can Create Consignments" description="True/False flag indicating if user can create courier consignments"></column>
+		  <column name="AbleToCreateProducts" friendlyname="User Can Create Products" description="True/False flag indicating if user can create new products using the online Product Manager interface"></column>
+		  <column name="ApplyStockMaxGrabRule" friendlyname="Apply Stock Max Grab Rule" description="True/False flag indicating if Stock Max Grab Rule should be applied for this user"></column>
+		  <column name="AbleToEditGlobalAddressBook" friendlyname="Can Edit Shared Address Book" description="True/False flag indicating if user can edit the shared address book"></column>
+		  <column name="RunningHeaderImage" friendlyname="Running Header Image" description="URL of the image displayed in the top left corner of the web site"></column>
+		  <column name="DeletedFlag" friendlyname="Deleted Flag" description="True/False flag indicating if this user has been deleted"></column>
+		  <column name="AbleToViewGlobalAddressBook" friendlyname="Can View Shared Address Book" description="True/False flag indicating if user can view the shared address book"></column>
+		  <column name="Telephone" friendlyname="Telephone Number" description="User's telephone number"></column>
+		  <column name="CollectionPoint" friendlyname="Collection Point" description="Collection Point"></column>
+	  </table>
+	  <table friendlyName="User Product Profile By Product" viewName="vwUserProductProfileByProduct2" ignoreCustomerKey="False" description="Lists the products enabled for each user, grouped by product.">
+      <column name="UserDetails" friendlyname="User Details" description="Name and logon id of user"></column>
+      <column name="ProductCode" friendlyname="Product Code" description="Identification code for this product"></column>
+		  <column name="ProductDate" friendlyname="Value Date" description="A date or other value which, when appended to the Product Code forms a unique Product identifier"></column>
+		  <column name="ProductDescription" friendlyname="Product Description" description="Description of product"></column>
+      <column name="MaxGrabQty" friendlyname="Max Grab Quantity" description="Max Grab Quantity"></column>
+      <column name="AbleToView" friendlyname="Able to View Product" description="True/false flag indicating if this user is able to view this product"></column>
+      <column name="AbleToEdit" friendlyname="Able To Edit This Product" description="True/false flag indicating if this user is able to edit this product"></column>
+      <column name="AbleToArchive" friendlyname="Able To Archive This Product" description="True/false flag indicating if this user is able to archive this product"></column>
+      <column name="AbleToDelete" friendlyname="Able To Delete This Product" description="True/false flag indicating if this user is able to delete this product"></column>
+      <column name="ApplyMaxGrab" friendlyname="Apply Max Grab" description="True/false flag indicating Max Grab is applied for this product to this user"></column>
+    </table>
+    <table friendlyName="User Profile By User" viewName="vwUserProductProfileByUser2" ignoreCustomerKey="False" description="Lists the products enabled for each user, grouped by user.">
+		<column name="UserDetails" friendlyname="User Details" description="Name and logon id of user"></column>
+		<column name="ProductCode" friendlyname="Product Code" description="Identification code for this product"></column>
+		<column name="ProductDate" friendlyname="Value Date" description="A date or other value which, when appended to the Product Code forms a unique Product identifier"></column>
+		<column name="ProductDescription" friendlyname="Product Description" description="Description of product"></column>
+		<column name="MaxGrabQty" friendlyname="Max Grab Quantity" description="Max Grab Quantity"></column>
+      <column name="AbleToView" friendlyname="Able To View This Product" description="True/false flag indicating if this user is able to view this product"></column>
+      <column name="AbleToEdit" friendlyname="Able To Edit This Product" description="True/false flag indicating if this user is able to edit this product"></column>
+      <column name="AbleToArchive" friendlyname="Able To Archive This Product" description="True/false flag indicating if this user is able to archive this product"></column>
+      <column name="AbleToDelete" friendlyname="Able To Delete This Product" description="ATrue/false flag indicating if this user is ble To delete this product"></column>
+      <column name="ApplyMaxGrab" friendlyname="Apply Max Grab" description="True/false flag indicating Max Grab is applied for this product to this user"></column>
+    </table>
+    <table friendlyName="User Profile By Product Where Max Grab Enabled" viewName="vwUserProductProfileMaxGrabEnabledByProduct2" ignoreCustomerKey="False" description="Lists the products enabled for each user where MAX GRAB is enabled, grouped by product.">
+      <column name="UserDetails" friendlyname="User Details" description="Name and logon id of user"></column>
+      <column name="ProductCode" friendlyname="Product Code" description="Identification code for this product"></column>
+      <column name="ProductDate" friendlyname="Value Date" description="A date or other value which, when appended to the Product Code forms a unique Product identifier"></column>
+      <column name="ProductDescription" friendlyname="Product Description" description="Description of product"></column>
+      <column name="MaxGrabQty" friendlyname="Max Grab Quantity" description="Max Grab Quantity"></column>
+      <column name="AbleToView" friendlyname="Able To View This Product" description="True/false flag indicating if this user is able to view this product"></column>
+      <column name="AbleToEdit" friendlyname="Able To Edit This Product" description="True/false flag indicating if this user is able to edit this product"></column>
+      <column name="AbleToArchive" friendlyname="Able To Archive This Product" description="True/false flag indicating if this user is able to archive this product"></column>
+      <column name="AbleToDelete" friendlyname="Able To Delete This Product" description="True/false flag indicating if this user is able to delete this product"></column>
+    </table>
+    <table friendlyName="User Profile By User Where Max Grab Enabled" viewName="vwUserProductProfileMaxGrabEnabledByUser" ignoreCustomerKey="False" description="Lists the products enabled for each user where MAX GRAB is enabled, grouped by user.">
+      <column name="UserDetails" friendlyname="User Details" description="Name and logon id of user"></column>
+      <column name="ProductCode" friendlyname="Product Code" description="Identification code for this product"></column>
+      <column name="ProductDescription" friendlyname="Product Description" description="Description of product"></column>
+      <column name="MaxGrabQty" friendlyname="Max Grab Quantity" description="Max Grab Quantity"></column>
+      <column name="AbleToView" friendlyname="Able To View This Product" description="True/false flag indicating if this user is able to view this product"></column>
+      <column name="AbleToEdit" friendlyname="Able To Edit This Product" description="True/false flag indicating if this user is able to edit this product"></column>
+      <column name="AbleToArchive" friendlyname="Able To Archive This Product" description="True/false flag indicating if this user is able to archive this product"></column>
+      <column name="AbleToDelete" friendlyname="Able To Delete This Product" description="True/false flag indicating if this user is able to delete this product"></column>
+    </table>
+  </tables>
+</dataDefinitions>

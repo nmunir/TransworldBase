@@ -1,0 +1,38 @@
+﻿body
+{
+    font-family: Verdana;
+    font-size:xx-small
+}
+
+table
+{
+    font-family: Verdana;
+    font-size:xx-small
+}
+
+.informational
+{
+    font-size:xx-small
+
+}
+
+a:visited 
+{
+  color: blue
+}
+
+
+.light
+{
+    color: silver
+}    
+
+.dark
+{
+    color: black
+}    
+
+.TreeView			{color:#000000; font-size:8pt; font-family: arial} 
+A.TreeView:LINK		{Text-Decoration: none; color:#000000; font-size:8pt; font-family: arial} 
+A.TreeView:VISITED	{Text-Decoration: none; color:#000000; font-size:8pt; font-family: arial}
+A.TreeView:HOVER		{Text-Decoration: underline; color:#4682b4; font-size:8pt; font-family: arial}

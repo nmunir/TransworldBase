@@ -1,0 +1,44 @@
+$ CUSTOMER	QUANTUM						
+$ USER	rabeelquantum						
+$ CONSIGNEE	A						
+$ CONSIGNEECONTACT							
+$ ADDR1	B						
+$ ADDR2	C						
+$ ADDR3	D						
+$ TOWN	E						
+$ REGION	F						
+$ COUNTRY	H						
+$ DEFAULTUK							
+$ POSTCODE	G						
+$ CUSTREF1							
+$ CUSTREF2							
+$ CUSTREF3							
+$ CUSTREF4							
+$ DEFAULTSPECIALINSTRUCTIONS	P/O: BM100083982						
+$ DEFAULTPACKINGNOTE	(none)						
+$ DEFAULTCUSTREF1	(none)						
+$ DEFAULTCUSTREF2	(none)						
+$ DEFAULTCUSTREF3	(none)						
+$ DEFAULTCUSTREF4	(none)						
+$ DEFAULTUK							
+$ ITEMORDER	PQ						
+$ ITEM	RDR0039	1					
+$ ITEM	SVD5134	1					
+$ ITEM	QLDVD6878	3					
+$ ITEM	DWL1665	1					
+$ ITEM	ACE11056F	1					
+$ ITEM	QLDVD6891	1					
+$ ITEM	DV10241	1					
+$ ITEM	CS1719	1					
+$ ITEM	GOLF1537	1					
+$ ITEM	5413	1					
+$ ITEM	DV86931	1					
+$ ITEM	QLDVD6236	1					
+$ ITEM	QLDVD6967	1					
+$ ITEM	SVD40	1					
+$ ITEM	DR4315	1					
+$ ITEM	DJ903	1					
+$ ITEM	HL00321279	1					
+$ ITEM	STDC1128	1					
+$ ITEM	DWL1533	1					
+MSE	Goods-In Area	1 Eagle Park Drive		Warrington		WA2 8JA	UK

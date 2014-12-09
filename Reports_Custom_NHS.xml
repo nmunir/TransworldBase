@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Reports Text="Available Reports"
+         Tooltip=""
+         Value="
+          &lt;p&gt;Click on the report groups to show the available reports.&lt;/p&gt;
+          &lt;p&gt;Long reports, or reports which are to be formatted for printing, can be displayed in a separate window.  To display a report in a separate window click the &lt;i&gt;Show this report in a new window&lt;/i&gt; link.&lt;/p&gt;
+         ">
+  <ReportClass
+    Text="Booking and Consignment Reports"
+    Value="Booking reports provide information about online orders.  Consignment reports provide information about deliveries."
+    Tooltip="">
+    <Report
+      Text="Booking History Report"
+      Value="
+      &lt;p&gt;The Booking History report shows details of online orders made within a selected period.&lt;/p&gt;
+      &lt;p&gt;Select the report period required by specifying the start and end date in the format shown.
+      &lt;p&gt;Click the calendar icon &lt;img src='./images/SmallCalendar.gif' align='middle' /&gt; or use the date dropdown boxes to select the report dates.&lt;/p&gt;
+      &lt;p&gt;Click &lt;i&gt;generate report&lt;/i&gt; to retrieve data.  Sort displayed data by clicking on column headers.&lt;/p&gt;
+      &lt;p&gt;Click &lt;i&gt;re-select report filter&lt;/i&gt; to change the reporting period.&lt;/p&gt;
+      "
+      URL="./reports_v2/booking_history_report_v2.aspx" 
+      Tooltip="">
+    </Report>
+	  <Report
+		Text="Item Booking History Report"
+		Value="
+      &lt;p&gt;The Item Booking History report shows each item in each online order made within a selected period.&lt;/p&gt;
+      &lt;p&gt;Select the report period required by specifying the start and end date in the format shown.
+      &lt;p&gt;Click the calendar icon &lt;img src='./images/SmallCalendar.gif' align='middle' /&gt; or use the date dropdown boxes to select the report dates.&lt;/p&gt;
+      &lt;p&gt;Click &lt;i&gt;generate report&lt;/i&gt; to retrieve data.  Sort displayed data by clicking on column headers.&lt;/p&gt;
+      &lt;p&gt;Click &lt;i&gt;re-select report filter&lt;/i&gt; to change the reporting period.&lt;/p&gt;
+      "
+		URL="./reports_v2/item_booking_history_report.aspx"
+		Tooltip="">
+	  </Report>
+	  <Report
+      Text="Consignments by Consignee Report"
+      Value="
+      &lt;p&gt;The Consignments by Consignee report shows product deliveries within a selected period grouped by Consignee.&lt;/p&gt;
+      &lt;p&gt;Select the report period required by specifying the start and end date from the dropdown boxes, then click the Run button.&lt;/p&gt;
+      "
+      URL="./reports_v2/consignments_by_consignee_report_v2.aspx" 
+      Tooltip="">
+    </Report>
+    <Report
+      Text="Consignment Cost Report"
+      Value="
+      &lt;p&gt;The Consignment Cost report shows the total value of each consignment within a selected period.&lt;/p&gt;
+      &lt;p&gt;Select the report period required by specifying the start and end date in the format shown.
+      &lt;p&gt;Click the calendar icon &lt;img src='./images/SmallCalendar.gif' align='middle' /&gt; or use the date dropdown boxes to select the report dates.&lt;/p&gt;
+      &lt;p&gt;Click &lt;i&gt;generate report&lt;/i&gt; to retrieve data. Click the Information button to display details of an individual consignment. Sort displayed data by clicking on column headers.&lt;/p&gt;
+      &lt;p&gt;Click &lt;i&gt;re-select report filter&lt;/i&gt; to change the reporting period.&lt;/p&gt;
+      "
+      URL="./reports_v2/consignment_cost_report_v2.aspx" 
+      Tooltip="">
+    </Report>
+    <Report
+      Text="Cancelled Bookings Report"
+      Value="
+      &lt;p&gt;The Cancelled Bookings report shows all bookings that were cancelled prior to delivery.&lt;/p&gt;
+      &lt;p&gt;Select the report period required by specifying the start and end date in the format shown.
+      &lt;p&gt;Click the calendar icon &lt;img src='./images/SmallCalendar.gif' align='middle' /&gt; or use the date dropdown boxes to select the report dates.&lt;/p&gt;
+      &lt;p&gt;Click &lt;i&gt;generate report&lt;/i&gt; to retrieve data. Click the Information button to display details of an individual consignment. Sort displayed data by clicking on column headers.&lt;/p&gt;
+      &lt;p&gt;Click &lt;i&gt;re-select report filter&lt;/i&gt; to change the reporting period.&lt;/p&gt;
+      "
+      URL="./reports_v2/cancelled_booking_report_v2.aspx" 
+      Tooltip="">
+    </Report>
+  </ReportClass>
+  <ReportClass
+    Text="Product Reports"
+    Value="Product reports provide information about the products that are available to order."
+    Tooltip="">
+    <Report
+      Text="Product History Report"
+      Value="
+      &lt;p&gt;The Product History report lists all products and displays the activity recorded for a selected product.&lt;/p&gt;
+      &lt;p&gt;List all products or search product descriptions to display a list of matching products. Click column headers to sort the list.&lt;/p&gt;
+      &lt;p&gt;Click &lt;i&gt;export product list to excel&lt;/i&gt; to export a list of products to Excel.&lt;/p&gt;
+      "
+      URL="./reports_v2/product_history_report_v2.aspx" 
+      Tooltip="Click to display the Product History Report">
+    </Report>
+    <Report
+      Text="Product Usage Report"
+      Value="
+      &lt;p&gt;The Product Usage Report lists, for each product, the number of items that have been despatched during the selected period.&lt;/p&gt;
+      &lt;p&gt;Select the report period required by specifying the start and end date in the format shown.
+      &lt;p&gt;Click the calendar icon &lt;img src='./images/SmallCalendar.gif' align='middle' /&gt; or use the date dropdown boxes to select the report dates.&lt;/p&gt;
+      &lt;p&gt;Click &lt;i&gt;generate report&lt;/i&gt; to retrieve data. Sort displayed data by clicking on column headers.&lt;/p&gt;
+      &lt;p&gt;Click &lt;i&gt;re-select report filter&lt;/i&gt; to change the reporting period.&lt;/p&gt;
+      "
+      URL="./reports_v2/product_usage_report_v2.aspx" 
+      Tooltip="Click to display the Product Usage Report">
+    </Report>
+    <Report
+      Text="Product Value Report"
+      Value="
+      &lt;p&gt;The Product Value Report lists, for each product, the number of items in stock and, where applicable, their monetary value. Archived products are not reported.&lt;/p&gt;
+      &lt;p&gt;Click &lt;i&gt;show all products&lt;/i&gt; to list all products, or use the search box to display a list of products with matching descriptions. Click column headers to sort the list.&lt;/p&gt;
+      "
+      URL="./reports_v2/product_value_report_v2.aspx" 
+      Tooltip="Click to display the Product Value Report">
+      </Report>
+      <Report
+        Text="Pallet Usage Report"
+        Value="
+      &lt;p&gt;The Pallet Usage report shows monthly pallet usage.&lt;/p&gt;
+      "
+        URL="./reports_v2/pallet_usage_report.aspx"
+        Tooltip="">
+      </Report>
+  </ReportClass>
+  <ReportClass
+    Text="Authorisation Reports"
+    Value="Authorisation reports are applicable only if you have the Product or Order Authorisation feature enabled. These reports provide information on the status and configuration of Authorisation."
+    Tooltip="">
+    <Report
+      Text="Authorisable Products"
+      Value="
+      &lt;p&gt;The Authorisable Products Report lists, for each product, whether it requires authorisation, ie whether the 'Requires Auth' check box is ticked.&lt;/p&gt;
+      &lt;p&gt;To display this report, select Authorisable Products from the Custom Reports drop down box.&lt;/p&gt;
+      "
+      URL="./reports_v2/data_for_custom_report_v2.aspx" 
+      Tooltip="">
+    </Report>
+    <Report
+      Text="Authorisations In Force"
+      Value="
+      &lt;p&gt;The Authorisations In Force report shows the authorisations that have been granted to each user for each product. Note that Authorisations that have exceeded their duration are automatically revoked and are no longer shown.&lt;/p&gt;
+      &lt;p&gt;To display this report, select Authorisations In Force from the Custom Reports drop down box.&lt;/p&gt;
+      "
+      URL="./reports_v2/data_for_custom_report_v2.aspx" 
+      Tooltip="">
+    </Report>
+  </ReportClass>
+	<ReportClass
+	  Text="User and Customer Reports"
+	  Value="User and Customer Reports are generated using the Custom Reports facility."
+	  Tooltip="">
+		<Report
+		  Text="System Users"
+		  Value="
+      &lt;p&gt;To display a list of system users use the Custom Reports facility, selecting System Users as the data source.&lt;/p&gt;
+      &lt;p&gt;Click on Custom Reports for further information.&lt;/p&gt;
+      "
+		  URL="./reports_v2/data_for_custom_report_v2.aspx"
+		  Tooltip="">
+		</Report>
+		<Report
+		  Text="Shared Address Book"
+		  Value="
+      &lt;p&gt;To display the contents of the Shared Address Book select Shared Address Book from the list of tables&lt;/p&gt;
+      &lt;p&gt;Click on Custom Reports for further information.&lt;/p&gt;
+      "
+		  URL="./reports_v2/data_for_custom_report_v2.aspx"
+		  Tooltip="">
+		</Report>
+	</ReportClass>
+  <ReportClass
+    Text="Other Reports"
+    Value="
+      &lt;p&gt;Customer-specific reports&lt;/p&gt;
+    "
+    Tooltip="">
+	<!--
+    <Report
+      Text="Hyster Dealer Report"
+      Value="Shows a report of activity by dealer."
+      URL="./reports_v2/hyster_dealer_report_v2.aspx" 
+      Tooltip="">
+    </Report>
+    <Report
+      Text="Hyster Invoice Report"
+      Value="Shows invoice details for the selected period."
+      URL="./reports_v2/hyster_invoice_report_v2.aspx" 
+      Tooltip="">
+    </Report>
+    <Report
+      Text="Porter Novelli Product Deliveries Report"
+      Value="Shows product delivery information."
+      URL="./reports_v2/porternovelli_product_deliveries_report_v2.aspx" 
+      Tooltip="">
+    </Report>
+	-->
+    <Report
+      Text="NHS Product Deliveries Report"
+      Value="Shows product delivery information."
+      URL="./reports_v2/product_deliveries_report.aspx" 
+      Tooltip="">
+    </Report>
+  </ReportClass>
+  <ReportClass
+    Text="Custom Reports"
+    Value="
+      &lt;p&gt;The custom reports facility provides data download to &lt;i&gt;comma-separated variable&lt;/i&gt; (CSV) files, a data format suitable for display and manipulation using widely available productivity tools such as Microsoft Excel, Microsoft Word and Microsoft Access, or for transfer to in-house management information systems.&lt;/p&gt;
+      &lt;p&gt;Using Microsoft Excel, data can be sorted, formatted and charted for production of comprehensive management reports.&lt;/p&gt;
+      &lt;p&gt;To format data using Microsoft Word, save the file with a .doc extension, select the imported data, then place it in a table (Table | Convert | Text to Table). Word may prompt you to install the text import converter if this is not already installed. If so you may need the original Microsoft Office CD.&lt;/p&gt;
+      "
+    Tooltip="">
+    <Report
+      Text="Select a report"
+      Value="
+      &lt;p&gt;Select the report you require. The reports are grouped by topic area, eg - ADDRESS BOOK REPORTS -. A description of the content of the report is shown together with a list of available data fields.&lt;/p&gt;
+      &lt;p&gt;Use the Select All or Clear All links, or click individual tick boxes in the Select Data Fields list, to select the data items to be displayed. The field descriptions indicate the purpose of each field and any related fields.&lt;/p&gt;
+      &lt;p&gt;The &lt;i&gt;Return 10 items max.&lt;/i&gt; tick box limits the amount of data retrieved to a maximum of 10 items, useful when you wish to explore the content of different reports. The &lt;i&gt;Include field names&lt;/i&gt; tick box inserts a list of field names in the top row.&lt;/p&gt;
+      &lt;p&gt;Use the option buttons to select whether to display the report in Microsoft Excel (the default), in Microsoft Word, or as a plain text document.&lt;/p&gt;
+      "
+      URL="./reports_v2/data_for_custom_report_v2.aspx" 
+      Tooltip="">
+    </Report>
+  </ReportClass>
+</Reports>

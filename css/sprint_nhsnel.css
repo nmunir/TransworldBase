@@ -1,0 +1,222 @@
+﻿body {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size:xx-small;
+    color: #000000;
+    background-color :#FFFFFF;
+    margin: 1px;
+    padding: 0;
+	width: 100%;
+}
+table {
+    font-family: Verdana;
+    font-size:xx-small
+}
+td {
+	font: Verdana;
+	font-size: xx-small;
+}
+.h1 {
+    font-size: 140% !important;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    margin-top: 1.5em;
+    margin-bottom: .5em;
+    color: #000000;
+    font-weight: bold;
+}
+
+.h2 {
+    font-size: 120% !important;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    margin-top: 1.5em;
+    margin-bottom: .5em;
+    color: #0000FF;
+    font-weight: bold;
+}
+
+.h3 {
+    font-size: 110% !important;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    margin-top: .3em;
+    margin-bottom: .3em;
+    color: #1B53B3;
+    font-weight: bold;
+}
+a:link {color: #0000FF;}
+a:visited {color: #0000FF;}
+a:hover {color: #000080;}
+a:active {color: #0000FF;}
+
+/* full-width colour bars at the top of each page */
+.bar_statusline {
+	background-color: #adadad;
+	height: 15px;
+}
+.bar_noticeboard {
+	background-color: #0075D2;
+	height: 15px;
+}
+.bar_order {
+	background-color: #0075D2;
+	height: 15px;
+}
+.bar_couriercollection {
+	background-color: #0075D2;
+	height: 15px;
+}
+.bar_tracktrace {
+	background-color: #0075D2;
+	height: 15px;
+}
+.bar_reports  {
+	background-color: #0075D2;
+	height: 15px;
+}
+.bar_addressbook {
+	background-color: #0075D2;
+	height: 15px;
+}
+.bar_productmanager {
+	background-color: #0075D2;
+	height: 15px;
+}
+.bar_usermanager {
+	background-color: #0075D2;
+	height: 15px;
+}
+.bar_myprofile {
+	background-color: #0075D2;
+	height: 15px;
+}
+.bar_noticeboardeditor {
+	background-color: #0075D2;
+	height: 15px;
+}
+.bar_administrator {
+	background-color: #0075D2;
+	height: 15px;
+}
+.bar_accounthandler {
+	background-color: #0075D2;
+	height: 15px;
+}
+
+/* reports */
+
+.informational {
+    font-size:xx-small
+}
+/* 
+a:visited {
+  color: blue
+}
+ */
+.light {
+    color: silver
+}    
+.dark {
+    color: black
+}    
+.TreeView			{color:#000000; font-size:8pt; font-family: arial} 
+A.TreeView:LINK		{Text-Decoration: none; color:#000000; font-size:8pt; font-family: arial} 
+A.TreeView:VISITED	{Text-Decoration: none; color:#000000; font-size:8pt; font-family: arial}
+A.TreeView:HOVER	{Text-Decoration: underline; color:#4682b4; font-size:8pt; font-family: arial}
+
+/* tabs */
+
+.TabView			{color:#000000; font-size:8pt; font-family: arial} 
+A.TabView:LINK		{Text-Decoration: none; color:#000000; font-size:8pt; font-family: arial} 
+A.TabView:VISITED	{Text-Decoration: none; color:#000000; font-size:8pt; font-family: arial}
+A.TabView:HOVER		{Text-Decoration: underline; color:#4682b4; font-size:8pt; font-family: arial}
+
+/* rotator & notice board editor */
+
+.rotatortext {
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	text-align: left;
+}
+.smallfont {
+	font-size:9pt;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.Rotator {
+	border: solid 0px black; 
+	width: 450px; 
+	height: 25px;
+	padding: 3px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px; 
+	background-color: white; 
+	cursor: default;
+}
+.RotatorFrame {
+	border:solid 1px white; 
+	width:450px; 
+	height:25px; 
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:11px; 
+	background-color:white; 
+	cursor:default;
+}
+.RotatorFrameOver {
+	border:solid 1px darkgray; 
+	border-bottom-color:Black;
+	border-right-color:Black;
+	width:450px; 
+	height:25px; 
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:11px; 
+	background-color:white; 
+	cursor:default;
+}
+.NewsTitle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:10px;   
+	font-weight:bold; 
+	text-decoration:underline; 
+	color:Black;
+}
+.NewsText {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:10px;   
+	color:Black;
+}
+.NewsDate {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:10px;   
+	color:gray; 
+}
+.home_page_label {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:10px;   
+	color:gray; 
+}
+.editorHelpTextHeading {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 3px;
+}
+.editorHelpTextSectionTitle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;   
+	font-weight: bold;
+	padding: 3px;
+}
+.editorHelpTextBody {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;   
+	padding: 3px;
+}
+/*
+.TextBoxStyle
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	 width: 200px
+}
+
+.InputButtonStyle{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+*/

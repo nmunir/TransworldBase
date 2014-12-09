@@ -1,0 +1,69 @@
+$ CUSTOMER	QUANTUM						
+$ USER	stewartquantum						
+$ CONSIGNEE	A						
+$ CONSIGNEECONTACT							
+$ ADDR1	B						
+$ ADDR2	C						
+$ ADDR3	D						
+$ TOWN	E						
+$ REGION	F						
+$ COUNTRY	H						
+$ DEFAULTUK							
+$ POSTCODE	G						
+$ CUSTREF1							
+$ CUSTREF2							
+$ CUSTREF3							
+$ CUSTREF4							
+$ DEFAULTSPECIALINSTRUCTIONS	(no special instructions)						
+$ DEFAULTPACKINGNOTE	(none)						
+$ DEFAULTCUSTREF1	(none)						
+$ DEFAULTCUSTREF2	(none)						
+$ DEFAULTCUSTREF3	(none)						
+$ DEFAULTCUSTREF4	(none)						
+$ DEFAULTUK							
+$ ITEMORDER	PQ						
+$ ITEM	4084	1					
+$ ITEM	20326	2					
+$ ITEM	748177	1					
+$ ITEM	A3024DVD	1					
+$ ITEM	ACE11085	1					
+$ ITEM	CG1606	1					
+$ ITEM	CG1692	1					
+$ ITEM	CG1709	1					
+$ ITEM	CG1806	1					
+$ ITEM	CS1660	1					
+$ ITEM	DUK0092	1					
+$ ITEM	EACD1467	1					
+$ ITEM	ETV1734	1					
+$ ITEM	EWB1564	1					
+$ ITEM	FDVD2032	1					
+$ ITEM	GMDVD2	1					
+$ ITEM	HL00320338	1					
+$ ITEM	JB001323	1					
+$ ITEM	MSD1224	1					
+$ ITEM	MSDVD595	1					
+$ ITEM	MVD5037D	1					
+$ ITEM	QHVP170	1					
+$ ITEM	QHVP1765	1					
+$ ITEM	QLDVD0399	1					
+$ ITEM	QLDVD6012	1					
+$ ITEM	QLDVD6017	1					
+$ ITEM	QLDVD6054	1					
+$ ITEM	QLDVD6961	1					
+$ ITEM	QLDVD7049	1					
+$ ITEM	QLDVD7050	1					
+$ ITEM	RL207	1					
+$ ITEM	RL209	1					
+$ ITEM	RL209	1					
+$ ITEM	RL210	2					
+$ ITEM	RL211	1					
+$ ITEM	RL212	1					
+	RL920	1					
+	RL944	1					
+$ ITEM	RL946	1					
+	RL947	2					
+	RL952	1					
+	RL954	1					
+	SFP1777	1					
+$ ITEM	WHE21307	1					
+Rarewaves	Columbia House		1 Apollo Rise	Southwood Business Park	Farnborough	GU14 0GT	UK

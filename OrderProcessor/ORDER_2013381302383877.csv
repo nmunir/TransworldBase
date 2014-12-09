@@ -1,0 +1,105 @@
+
+$ CUSTOMER	ILU2						
+$ USER	stewartilu						
+$ CONSIGNEE	A						
+$ CONSIGNEECONTACT							
+$ ADDR1	B						
+$ ADDR2	C						
+$ ADDR3	D						
+$ TOWN	E						
+$ REGION	F						
+$ COUNTRY	H						
+$ DEFAULTUK							
+$ POSTCODE	G						
+$ CUSTREF1							
+$ CUSTREF2							
+$ CUSTREF3							
+$ CUSTREF4							
+$ DEFAULTSPECIALINSTRUCTIONS	Receipient Contect No: 020 7186 6007  // Delivery for Monday 18th November Pre 12 noon						
+$ DEFAULTPACKINGNOTE	(none)						
+$ DEFAULTCUSTREF1	(none)						
+$ DEFAULTCUSTREF2	(none)						
+$ DEFAULTCUSTREF3	(none)						
+$ DEFAULTCUSTREF4	(none)						
+$ DEFAULTUK							
+$ ITEMORDER	PQ						
+$ ITEM	BT001-TRQ-06	1					
+$ ITEM	BT001-TRQ-08	1					
+$ ITEM	BT001-TRQ-10	2					
+$ ITEM	BT001-VLT-06	1					
+	BT001-VLT-08	1					
+	BT001-VLT-10	2					
+	BT001-WHT-06	1					
+	BT001-WHT-08	1					
+	BT001-WHT-10	2					
+	BT003-PNK-06	1					
+	BT003-PNK-08	1					
+	BT003-PNK-10	2					
+	BT003-PNK-12	1					
+	BT003-PNK-14	1					
+	BT003-PNK-08/10	1					
+	BT003-PRP-06	1					
+	BT003-PRP-08	1					
+	BT003-PRP-10	2					
+	BT003-PRP-12	1					
+	BT003-PRP-14	1					
+	BT003-PRP-08/10	1					
+	BT003-WHT-06	1					
+	BT003-WHT-08	1					
+	BT003-WHT-10	2					
+	BT003-WHT-12	1					
+	BT003-WHT-14	1					
+	BT003-WHT-08/10	1					
+	BT003-YLW-06	1					
+	BT003-YLW-08	1					
+	BT003-YLW-10	2					
+	BT003-YLW-12	1					
+	BT003-YLW-14	1					
+	BT003-YLW-08/10	1					
+	BT003-BLU-06	1					
+	BT003-BLU-08	1					
+	BT003-BLU-10	2					
+	BT003-BLU-12	1					
+	BT003-BLU-14	1					
+	BT003-BLU-08/10	1					
+	BT004-BLU-06	1					
+	BT004-BLU-08	1					
+	BT004-BLU-10	2					
+	BT004-PNK-06	1					
+	BT004-PNK-08	1					
+	BT004-PNK-10	1					
+	BT004-PRP-06	1					
+	BT004-PRP-08	1					
+	BT004-PRP-10	2					
+	BT004-YLW-06	1					
+	BT004-YLW-08	1					
+	BT004-YLW-10	2					
+	BT004-WHT-08	1					
+	BT004-WHT-10	2					
+	L003-BLK-06	1					
+	L003-BLK-08	1					
+	L003-BLK-10	2					
+	L003-BLK-12	1					
+	L003-BLK-14	1					
+	L004-BLK-06	1					
+	L004-BLK-08	1					
+	L004-BLK-10	2					
+	L004-BLK-12	1					
+	L004-BLK-14	1					
+	L009-PRP-06	1					
+	L009-PRP-08	1					
+	L009-BLK-10	2					
+	L009-BLK-12	1					
+	ST001-TRQ-06	1					
+	ST001-TRQ-08	1					
+	ST001-TRQ-10	2					
+	ST001-TRQ-12	1					
+	ST001-VLT-06	1					
+	ST001-VLT-08	1					
+	ST001-VLT-10	2					
+	ST001-VLT-12	1					
+	ST003-BLK-08	1					
+	ST003-BLK-10	2					
+	ST005-BLK-08	1					
+	ST005-BLK-10	2					
+Slice Urban Lifestyle Studios	11 Heathman's Road 	Parsons Green		London		SW6 4TJ	UK

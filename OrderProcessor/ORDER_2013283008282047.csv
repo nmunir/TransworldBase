@@ -1,0 +1,47 @@
+$ CUSTOMER	QUANTUM						
+$ USER	rabeelquantum						
+$ CONSIGNEE	A						
+$ CONSIGNEECONTACT							
+$ ADDR1	B						
+$ ADDR2	C						
+$ ADDR3	D						
+$ TOWN	E						
+$ REGION	F						
+$ COUNTRY	H						
+$ DEFAULTUK							
+$ POSTCODE	G						
+$ CUSTREF1							
+$ CUSTREF2							
+$ CUSTREF3							
+$ CUSTREF4							
+$ DEFAULTSPECIALINSTRUCTIONS							
+$ DEFAULTPACKINGNOTE	(none)						
+$ DEFAULTCUSTREF1	4505608						
+$ DEFAULTCUSTREF2	4505816						
+$ DEFAULTCUSTREF3	(none)						
+$ DEFAULTCUSTREF4	(none)						
+$ DEFAULTUK							
+$ ITEMORDER	PQ						
+$ ITEM	SVD7	1					
+$ ITEM	SVD6	1					
+$ ITEM	SVD5130	1					
+$ ITEM	SVD107	1					
+$ ITEM	STDC1210	1					
+$ ITEM	RL920	1					
+$ ITEM	QLDVD7151	1					
+$ ITEM	QLDVD7134	1					
+$ ITEM	MVD5018D	1					
+$ ITEM	MSDVD671	1					
+$ ITEM	MSDVD604	1					
+$ ITEM	MSDVD562	1					
+$ ITEM	IDS-6	3					
+$ ITEM	IDS-5	3					
+$ ITEM	IDS-3	3					
+$ ITEM	IDS-1	3					
+$ ITEM	HTD9775	1					
+$ ITEM	AV600107	2					
+$ ITEM	ADVD003	1					
+$ ITEM	760164	1					
+$ ITEM	4317	1					
+$ ITEM	2202	4					
+Gardners Books	Goods- In Area	1 Whittle Drive	Willingdon Drove	Eastbourne		BN23 6QH	UK

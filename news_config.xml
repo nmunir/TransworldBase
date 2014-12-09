@@ -1,0 +1,54 @@
+<DisplaySettings>
+  <HeaderRotator>
+    <Visible>True</Visible>
+    <ContinuousLoop>True</ContinuousLoop>
+    <PauseOnMouseOver>True</PauseOnMouseOver>
+    <ScrollDirection>Left</ScrollDirection>
+    <SlidePause>5000</SlidePause>
+    <ScrollInterval>15</ScrollInterval>
+    <RotationType>SlideShow</RotationType>
+    <SmoothScrollSpeed>Medium</SmoothScrollSpeed>
+    <ShowEffect>Pixelate</ShowEffect>
+    <ShowEffectDuration>1500</ShowEffectDuration>
+    <HideEffect>Pixelate</HideEffect>
+    <HideEffectDuration>1500</HideEffectDuration>
+  </HeaderRotator>
+  <NoticeBoard1Rotator>
+    <Visible>True</Visible>
+    <ContinuousLoop>True</ContinuousLoop>
+    <PauseOnMouseOver>True</PauseOnMouseOver>
+    <ScrollDirection>Left</ScrollDirection>
+    <SlidePause>5000</SlidePause>
+    <ScrollInterval>15</ScrollInterval>
+    <RotationType>SlideShow</RotationType>
+    <SmoothScrollSpeed>Medium</SmoothScrollSpeed>
+    <ShowEffect>Dissolve</ShowEffect>
+    <ShowEffectDuration>2500</ShowEffectDuration>
+    <HideEffect>Dissolve</HideEffect>
+    <HideEffectDuration>2500</HideEffectDuration>
+  </NoticeBoard1Rotator>
+  <LHSBody>
+    <Text>NB1 - updated again and again</Text>
+  </LHSBody>
+  <PageTitle>
+    <Text>&lt;p&gt;This is the home page title&lt;/p&gt;</Text>
+  </PageTitle>
+  <LogonPage>
+    <Text>&lt;table cellspacing="1" cellpadding="1" width="90%" border="0"&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+            &lt;p&gt;&lt;img height="120" alt="" src="/UserFiles/Image/cn.jpg" width="60" align="middle" /&gt;&lt;img height="1" alt="" src="http://www.sprintexpress.co.uk/images/pixel.gif" width="100" /&gt; &lt;/p&gt;
+            &lt;p&gt;&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;
+            &lt;p&gt;&lt;strong&gt;Welcome to Hyster's Online Ordering System&lt;/strong&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;!--StartFragment --&gt;&lt;font face="Arial" size="2"&gt;&lt;span id="lblLogonPagePara1"&gt;&lt;font size="2"&gt;Hyster's online ordering system provides a user-friendly, reliable and &lt;font style="BACKGROUND-COLOR: #ffff99"&gt;efficient&lt;/font&gt; method of ordering Hyster literature and promotional &lt;span style="FONT-WEIGHT: bold"&gt;goods&lt;/span&gt;.&lt;/font&gt;&lt;/span&gt; &lt;br /&gt;&lt;br /&gt;&lt;span id="lblLogonPagePara2"&gt;&lt;font size="2"&gt;From this site you will be able to price up, select and order brochures, specification sheets and promotional goods to send to customers, use at events and conferences or to simply supply your office and sales team.&lt;/font&gt;&lt;/span&gt; &lt;br /&gt;&lt;br /&gt;&lt;span&gt;&lt;font size="2"&gt;If you require any help or advice, please call the telephone helpline on &lt;/font&gt;&lt;/span&gt;&lt;span&gt;&lt;font size="2"&gt;+44 (0)20 8751 1111. Please click &lt;/font&gt;&lt;/span&gt;&lt;a style="COLOR: rgb(0,0,255)" href="mailto:y.mauroux@sprintexpress.co.uk"&gt;here&lt;/a&gt; &lt;span&gt;&lt;font size="2"&gt;if you have any feedback on the site or if your personal details change.&lt;/font&gt;&lt;/span&gt; &lt;/font&gt;&lt;/p&gt;
+            &lt;/td&gt;
+            &lt;td&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br /&gt;</Text>
+  </LogonPage>
+</DisplaySettings>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dataDefinitions>
+  <tables>
+    <table name="table1" description="table1 description">
+      <column name="column1"  description="column1 description"></column>
+      <column name="column1a"  description="column1a description"></column>
+    </table>
+    <table name="table2" description="table2 description">
+      <column name="index" description="index description"></column>
+      <column name="another column" description="another column description"></column>
+      <column name="another column 2" description="another column 2 description"></column>
+      <column name="another column 3" description="another column 3 description"></column>
+      <column name="another column 4" description="another column 4 description"></column>
+    </table>
+  </tables>
+</dataDefinitions>

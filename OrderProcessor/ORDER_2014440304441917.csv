@@ -1,0 +1,51 @@
+$ CUSTOMER	BOULEVARD						
+$ USER	rabeelboulevard						
+$ CONSIGNEE	A						
+$ CONSIGNEECONTACT							
+$ ADDR1	B						
+$ ADDR2	C						
+$ ADDR3	D						
+$ TOWN	E						
+$ REGION	F						
+$ COUNTRY	H						
+$ DEFAULTUK							
+$ POSTCODE	G						
+$ CUSTREF1							
+$ CUSTREF2							
+$ CUSTREF3							
+$ CUSTREF4							
+$ DEFAULTSPECIALINSTRUCTIONS	PO Number: P4508965						
+$ DEFAULTPACKINGNOTE	(none)						
+$ DEFAULTCUSTREF1	(none)						
+$ DEFAULTCUSTREF2	(none)						
+$ DEFAULTCUSTREF3	(none)						
+$ DEFAULTCUSTREF4	(none)						
+$ DEFAULTUK							
+$ ITEMORDER	PQ						
+$ ITEM	INF458	3					
+$ ITEM	INF460	3					
+$ ITEM	BLVDD0427	3					
+$ ITEM	BLVDD0665	10					
+$ ITEM	BLVDD0670	5					
+$ ITEM	BVENT0277	3					
+$ ITEM	BVENT0799	3					
+$ ITEM	BOUL0099	3					
+$ ITEM	BMOV0666	10					
+$ ITEM	BMOV0655	5					
+$ ITEM	BLVDD0677	3					
+$ ITEM	BVAR0581	3					
+$ ITEM	BVAR0585	5					
+$ ITEM	BVAR0603	3					
+$ ITEM	BVAR0591	10					
+$ ITEM	BVED0056	3					
+$ ITEM	BVED0131 	5					
+$ ITEM	BVAR0601	10					
+$ ITEM	BVED0097	3					
+$ ITEM	BVED0099	10					
+$ ITEM	BVED0100	3					
+$ ITEM	BVED0113	10					
+$ ITEM	BVED0117	20					
+$ ITEM	BVAR0594	3					
+$ ITEM	BVED0132	3					
+$ ITEM	BLVDD0047	3					
+Gardners Books	Goods- In Area	1 Whittle Drive	Willingdon Drove	Eastbourne		BN23 6QH	UK

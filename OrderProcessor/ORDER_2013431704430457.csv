@@ -1,0 +1,29 @@
+
+$ CUSTOMER	DEMO						
+$ USER							
+$ CONSIGNEE	A						
+$ CONSIGNEECONTACT							
+$ ADDR1	B						
+$ ADDR2	C						
+$ ADDR3	D						
+$ TOWN	E						
+$ REGION	F						
+$ COUNTRY	H						
+$ DEFAULTUK							
+$ POSTCODE	G						
+$ CUSTREF1							
+$ CUSTREF2							
+$ CUSTREF3							
+$ CUSTREF4							
+$ DEFAULTSPECIALINSTRUCTIONS	(no special instructions)						
+$ DEFAULTPACKINGNOTE	(none)						
+$ DEFAULTCUSTREF1	(none)						
+$ DEFAULTCUSTREF2	(none)						
+$ DEFAULTCUSTREF3	(none)						
+$ DEFAULTCUSTREF4	(none)						
+$ DEFAULTUK							
+$ ITEMORDER	QPD						
+$ ITEM	3	123	06/03				
+$ ITEM	1	14790 (HGI)					
+Chris Newport	27 Defoe Avenue	Kew		Richmond-upon-Thames	Surrey	TW9 4DS	UK
+Catherine Kelley	Flat 10	Sandways		Richmond-upon-Thames	Surrey	TW9	

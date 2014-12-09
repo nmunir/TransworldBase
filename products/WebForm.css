@@ -1,0 +1,156 @@
+.topBannerBackground
+{
+    /* background-color: #D5EDB3; */
+    background-color: #ffffff;
+}
+.thinSeparatorLine
+{
+    background-color: #aaaaaa;
+}
+
+.middleBanner
+{
+    background-color: #ffffff;
+}
+
+.menuBackground
+{
+    background-color: silver;
+}
+
+.bodyBackground 
+{
+    background-color: #ffffff;
+}
+
+/* Global Styles */
+
+body {
+	margin:1px;
+	}
+	
+td 
+{
+	font:Verdana, Helvetica, sans-serif;
+    /* was color:#666666; then color:#555555;*/
+	}
+	
+a {
+	color: #993300;
+	}
+	
+a:hover {
+	color: #5C743D;
+	}
+
+/* ID Styles */
+
+#navigation td {
+	border-bottom: 1px solid #F4FFE4;
+	}
+	
+#navigation a
+{
+    font: bold 11px Verdana, Helvetica, sans-serif;
+    color: #000000;
+    line-height: 16px;
+    letter-spacing: .1em;
+    text-decoration: none;
+    display: block;
+    padding: 8px 6px 10px 10px;
+}
+	
+#navigation a:hover
+{
+    color: #ff9900;
+}
+	
+#logo
+{
+    font: 24px Verdana, Helvetica, sans-serif; /* color: #5C743D; */
+    color: gray;
+    letter-spacing: .2em;
+    line-height: 30px;
+    color: silver;
+}
+
+#tagline 	{	
+	font:11px Verdana, Helvetica, sans-serif;
+	/* color: #993300; */
+	color: gray;
+	letter-spacing:.4em;
+	line-height:18px;
+	}
+
+#monthformat {
+	border-bottom: 1px dashed #5C743D;
+	}
+		
+#dateformat {
+	font:11px Verdana, Helvetica, sans-serif;
+	color: #993300;
+	letter-spacing:.2em;
+	}
+	
+#dateformat a {
+	font:11px Verdana, Helvetica, sans-serif;
+	color: #993300;
+	font-weight:bold;
+	letter-spacing:.1em;
+	text-decoration:none;
+	}
+	
+#dateformat a:hover {
+	color: #F4FFE4;
+	letter-spacing:.1em;
+	}
+	
+/* Class Styles */
+	
+.bodyText
+{
+    /* was color:#666666; */
+    font:12px Verdana, Helvetica, sans-serif;
+	color:#555555;
+    line-height: 20px;
+    margin-top: 0px;
+    /* font: smaller/20px Arial, Helvetica, sans-serif; */
+}
+	
+.pageName{
+	font: 18px Verdana, Helvetica, sans-serif;
+	/*color: #99CC66;*/
+	color: gray;
+	line-height:26px;
+	letter-spacing:.21em;
+	}
+	
+.subHeader {
+	font:bold 11px Verdana, Helvetica, sans-serif;
+	/* color: #993300; */
+	color: gray;
+	line-height:22px;
+	letter-spacing:.2em;
+	}
+
+.quote {
+	font: 20px Verdana, Helvetica, sans-serif;
+	color: #759DA1;
+	line-height:30px;
+	}
+	
+.smallText {
+	font: 10px Verdana, Helvetica, sans-serif;
+    /* was color:#666666; */
+	color: #222222;
+	line-height: 22px;
+	}
+	
+.navText {
+	font: 11px Verdana, Helvetica, sans-serif;
+	color: #003366;
+	line-height:16px;
+	letter-spacing:.1em;
+	text-decoration: none;
+	}
+	

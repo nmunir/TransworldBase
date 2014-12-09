@@ -1,0 +1,80 @@
+﻿<%@ Master Language="VB"  %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<script runat="server">
+
+    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs)
+        If Not IsPostBack Then
+        End If
+    End Sub
+</script>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta http-equiv="imagetoolbar" content="no" />
+    <link rel="stylesheet" href="WebForm.css" type="text/css" />
+</head>
+<body class="bodyBackground">
+    <form id="form1" runat="server">
+
+  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr class="topBannerBackground"> 
+      <td style="width:200px" align="center" valign="middle" rowspan="2">&nbsp;<asp:Image ID="imgCompanyLogo" runat="server" /> 
+      </td>
+      <td valign="bottom" colspan="3" id="logo" style="height: 30px" ><img src="./images/WebFormSpacer.gif" alt="" width="25" border="0" height="1" /><asp:Label ID="lblTopLegend" runat="server" Text="online ordering"/>
+      </td>
+      <td valign="top" style="height:30px; width:45px">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td valign="top" colspan="3" id="tagline" ><img src="./images/WebFormSpacer.gif" alt="" width="25" border="0" height="1" /><asp:Label ID="lblBottomLegend" runat="server" Text="ORDER YOUR PRODUCTS HERE"/>
+      </td>
+      <td valign="top">&nbsp;</td>
+    </tr>
+    <tr class="thinSeparatorLine"> 
+      <td style="height:2px" colspan="5"><img src="./images/WebFormSpacer.gif" alt="" width="1" height="2" border="0" /></td>
+    </tr>
+    <tr class="middleBanner">
+      <td style="height: 3px; white-space:nowrap; background:'./images/WebFormDashedLine.gif'" colspan="5"><img src="./images/WebFormDashedLine.gif" alt="line decor" width="4" height="3" border="0" /></td>
+    </tr>
+    <tr class="middleBanner"> 
+      <td style="height:14px" colspan="5" id="dateformat"> 
+        <div> &nbsp;&nbsp; <asp:ContentPlaceHolder ID="ContentPlaceHolderBreadcrumbs" runat="server"> 
+          </asp:ContentPlaceHolder> </div>
+      </td>
+    </tr>
+    <tr class="middleBanner"> 
+      <td colspan="5" style="height:3px; background:'./images/WebFormDashedLine.gif'" ><img src="./images/WebFormDashedLine.gif" alt="line decor" width="4" height="3" border="0" />
+      </td>
+    </tr>
+    <tr class="thinSeparatorLine"> 
+      <td style="height:2px" colspan="5"><img src="./images/WebFormSpacer.gif" alt="" width="1" height="2" border="0" />
+      </td>
+    </tr>
+    <tr> 
+      <td colspan="2" valign="top" style="width:135px" class="menuBackground"> 
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolderNavigation" runat="server"/> 
+        </div>
+      </td>
+      <td style="width:25px"> <img src="./images/WebFormSpacer.gif" alt="" width="25" border="0" /> 
+      </td>
+      <td valign="top" colspan="2"  style="width:1000px">
+	      <img src="./images/WebFormSpacer.gif" alt="" width="10" border="0" /> 
+        <div> <asp:ContentPlaceHolder ID="ContentPlaceHolderMain" runat="server"> 
+          </asp:ContentPlaceHolder> </div>
+      </td>
+      </tr>
+    <tr> 
+      <td style="height:0px"></td>
+      <td></td>
+      <td></td>
+      <td style="width:603px"></td>
+      <td></td>
+    </tr>
+  </table>
+    </form>
+</body>
+</html>

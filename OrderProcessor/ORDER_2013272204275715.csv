@@ -1,0 +1,84 @@
+
+$ CUSTOMER	QUANTUM						
+$ USER	stewartquantum						
+$ CONSIGNEE	A						
+$ CONSIGNEECONTACT							
+$ ADDR1	B						
+$ ADDR2	C						
+$ ADDR3	D						
+$ TOWN	E						
+$ REGION	F						
+$ COUNTRY	H						
+$ DEFAULTUK							
+$ POSTCODE	G						
+$ CUSTREF1							
+$ CUSTREF2							
+$ CUSTREF3							
+$ CUSTREF4							
+$ DEFAULTSPECIALINSTRUCTIONS	24 Hours Booking in Notice required - DC Contact Number: 07825863954						
+$ DEFAULTPACKINGNOTE	(none)						
+$ DEFAULTCUSTREF1	(none)						
+$ DEFAULTCUSTREF2	(none)						
+$ DEFAULTCUSTREF3	(none)						
+$ DEFAULTCUSTREF4	(none)						
+$ DEFAULTUK							
+$ ITEMORDER	PQ						
+$ ITEM	2202	1					
+$ ITEM	887211786	1					
+$ ITEM	QLDVD0302	1					
+$ ITEM	SVD5018	1					
+$ ITEM	2206	2					
+$ ITEM	SVD5007	2					
+$ ITEM	QLDVD0372	1					
+$ ITEM	GW989900	1					
+$ ITEM	SD5002	2					
+$ ITEM	4317	1					
+$ ITEM	QLDVD0363	1					
+$ ITEM	D1025	1					
+$ ITEM	TE2079	1					
+$ ITEM	RDR0255	1					
+$ ITEM	TFHE9002	1					
+$ ITEM	2350	1					
+$ ITEM	QLDVD6865	2					
+$ ITEM	SVD5124	1					
+$ ITEM	FDVD2035	2					
+$ ITEM	QLDVD6607	2					
+$ ITEM	QLDVD0342	1					
+$ ITEM	HSLD1480	1					
+$ ITEM	FR00917	1					
+$ ITEM	RDR0167	1					
+$ ITEM	FDVD2047	2					
+$ ITEM	DV01SI01	1					
+$ ITEM	QLDVD6732	2					
+$ ITEM	DWL000037	1					
+$ ITEM	2002	2					
+$ ITEM	QLDVD6008	2					
+$ ITEM	VESTA13099	1					
+$ ITEM	HL00641795	1					
+$ ITEM	FDVD2042	2					
+$ ITEM	SVD5075	2					
+$ ITEM	XUK6028	2					
+$ ITEM	2707	2					
+$ ITEM	IMP904224	2					
+$ ITEM	DGS950319	1					
+$ ITEM	SVD5006	2					
+$ ITEM	SVD98	1					
+$ ITEM	FDVD2075	2					
+$ ITEM	COL910793VD	1					
+$ ITEM	QLDVD0246	1					
+$ ITEM	QLDVD6493	1					
+$ ITEM	FDVD2024	2					
+$ ITEM	JB001323	1					
+$ ITEM	QLDVD0257	2					
+$ ITEM	QLDVD0375	1					
+$ ITEM	8591	2					
+$ ITEM	QLDVD6546	2					
+$ ITEM	HL00641552	1					
+$ ITEM	QLDVD0290	1					
+$ ITEM	QLDVD6959	1					
+$ ITEM	HL00320350	2					
+$ ITEM	NAN02	2					
+$ ITEM	XD0603	1					
+$ ITEM	DV10802	1					
+$ ITEM	VESTAPOL13125	1					
+MSE	Goods-In Area		1 Eagel Park Drive		Warrington	WA2 8JA	UK

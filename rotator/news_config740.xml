@@ -1,0 +1,36 @@
+<DisplaySettings>
+  <HeaderRotator>
+    <Visible>True</Visible>
+    <ContinuousLoop>True</ContinuousLoop>
+    <PauseOnMouseOver>True</PauseOnMouseOver>
+    <ScrollDirection>Left</ScrollDirection>
+    <SlidePause>5000</SlidePause>
+    <ScrollInterval>15</ScrollInterval>
+    <RotationType>SlideShow</RotationType>
+    <SmoothScrollSpeed>Medium</SmoothScrollSpeed>
+    <ShowEffect>Pixelate</ShowEffect>
+    <ShowEffectDuration>1500</ShowEffectDuration>
+    <HideEffect>Pixelate</HideEffect>
+    <HideEffectDuration>1500</HideEffectDuration>
+  </HeaderRotator>
+  <NoticeBoard1Rotator>
+    <Visible>True</Visible>
+    <ContinuousLoop>True</ContinuousLoop>
+    <PauseOnMouseOver>True</PauseOnMouseOver>
+    <ScrollDirection>Up</ScrollDirection>
+    <SlidePause>5000</SlidePause>
+    <ScrollInterval>15</ScrollInterval>
+    <RotationType>SlideShow</RotationType>
+    <SmoothScrollSpeed>Slow</SmoothScrollSpeed>
+    <ShowEffect>Fade</ShowEffect>
+    <ShowEffectDuration>1500</ShowEffectDuration>
+    <HideEffect>Fade</HideEffect>
+    <HideEffectDuration>1500</HideEffectDuration>
+  </NoticeBoard1Rotator>
+  <LHSBody>
+    <Text>NB1 - updated again and again</Text>
+  </LHSBody>
+  <PageTitle>
+    <Text>Your Text Here</Text>
+  </PageTitle>
+</DisplaySettings>
