@@ -14,6 +14,7 @@
     ' ExecuteNonQuery
     ' ExecuteQueryToListItemCollection
     ' ExecuteQueryToDataTable
+    ' Testing comments for GitHub again
 
     Const USER_PERMISSION_ACCOUNT_HANDLER As Integer = 1
     Const USER_PERMISSION_SITE_ADMINISTRATOR As Integer = 2
