@@ -14,7 +14,7 @@
     ' ExecuteNonQuery
     ' ExecuteQueryToListItemCollection
     ' ExecuteQueryToDataTable
-    ' Testing comments returning back
+    ' Testing comments when sign out
 
     Const USER_PERMISSION_ACCOUNT_HANDLER As Integer = 1
     Const USER_PERMISSION_SITE_ADMINISTRATOR As Integer = 2
