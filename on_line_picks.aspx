@@ -39,6 +39,7 @@
     ' REACHED HERE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
     ' consider GetAuthoriserForNextDayDelivery()
+    ' consider GetAuthoriserForNextDayDelivery()
     ' consider CheckForWURSCriticalProducts
     ' consider WURSCriticalProducts
     ' review ALL properties
